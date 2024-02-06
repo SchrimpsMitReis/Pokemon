@@ -5,8 +5,8 @@ function renderDex(){
     for (let i = 0; i < allPokemon.length; i++) {
         const Pokemon = allPokemon[i];
 
-        let pName = Pokemon['Name'];
-        let pImg = Pokemon['Img1'];
+        let pName = Pokemon['name'];
+        let pImg = Pokemon['img1'];
 
         content.innerHTML += /*html*/`
         <div id="Card${i}" class="dexCard" onclick="showBackside(${i})">
@@ -32,23 +32,22 @@ async function showBackside(index) {
     if (index !== 'MissingNo'){
         openCardBG.innerHTML = "";
         openCardBG.classList.remove('d-none');
-        let pokemonIndex = pokemonEnglish[index];
-        let myPokemon = await loadPokemon2(pokemonIndex);
-        let frontHome = myPokemon['sprites']['other']['home']['front_default'];
-        let frontClassic = myPokemon['sprites']['front_default'];
-        let statsHP = myPokemon['stats']['0']['base_stat'];
-        let statsATK = myPokemon['stats']['1']['base_stat'];
-        let statsDEF = myPokemon['stats']['2']['base_stat'];
-        let statsSATK = myPokemon['stats']['3']['base_stat'];
-        let statsSDEF = myPokemon['stats']['4']['base_stat'];
-        let statsINIT = myPokemon['stats']['5']['base_stat'];
+        let myPokemon = allPokemon[index]
+        let frontHome = myPokemon['img1'];
+        let frontClassic = myPokemon['img2'];
+        let statsHP = myPokemon['statsHP'];
+        let statsATK = myPokemon['statsATK'];
+        let statsDEF = myPokemon['statsDEF'];
+        let statsSATK = myPokemon['statsSATK'];
+        let statsSDEF = myPokemon['statsSDEF'];
+        let statsINIT = myPokemon['statsINIT'];
         let pkmnName = myPokemon['name']
         let pkmnId = myPokemon['id']
-        let pkmnType1 = myPokemon['types']['0']['type']['name']
-        let pkmnType2 = myPokemon['types']['1'] && myPokemon['types']['1']['type']['name'];
+        let pkmnType1 = myPokemon['type1']
+        let pkmnType2 = myPokemon['type2'];
         let move = (x)=>{
             try {
-                let move = myPokemon['abilities'][`${x}`]['ability']['name'];
+                let move = myPokemon[x];
                 return /*html*/`
                     <h1 class="ability">${capitalizeFirstLetter(move)}</h1>
                 `
@@ -123,4 +122,12 @@ async function showBackside(index) {
     }else{
         missingNoMania()
     }
+}
+function capitalizeFirstLetter(name) {
+    return name.charAt(0).toUpperCase() + name.slice(1);
+}
+function closeWindow(){
+    const openCardBG = document.getElementById('openCardBG');
+    openCardBG.classList.add('d-none');
+    openCardBG.innerHTML = "";
 }

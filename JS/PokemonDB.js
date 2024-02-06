@@ -1,4 +1,4 @@
-const allPokemon = [[
+const allPokemon = [
   {
     "name": "bulbasaur",
     "id": 1,
@@ -14211,4 +14211,4 @@ const allPokemon = [[
     "satsSATK": 127,
     "satsSDEF": 131
   }
-]]
+]

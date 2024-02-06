@@ -383,9 +383,6 @@ function closeWindow(){
     openCardBG.classList.add('d-none');
     openCardBG.innerHTML = "";
 }
-function capitalizeFirstLetter(name) {
-    return name.charAt(0).toUpperCase() + name.slice(1);
-}
 function introSequenz(){
     const overlay = document.getElementById('overlay');
     overlay.classList.remove('d-none');
