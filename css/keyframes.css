@@ -1,0 +1,92 @@
+@keyframes fadeIn{
+    0%{opacity: 0%;}
+
+    100%{opacity: 100%;}
+}
+@keyframes cardScale {
+    0% {
+        scale: 100%;
+    }
+
+    100% {
+        scale: 110%;
+
+    }
+}
+@keyframes cardScale-1 {
+    0% {
+        scale: 110%;
+    }
+
+    100% {
+        scale: 100%;
+
+    }
+}
+@keyframes blinkLight{
+    0%{fill: #609CDA;}
+    50%{fill: greenyellow;}
+    100%{fill: #609CDA;}
+}
+@keyframes imageScale {
+    0% {
+        scale: 100%;
+
+    }
+
+    100% {
+        scale: 130%;
+    }
+}
+@keyframes rotomScale {
+    0% {
+        scale: 100%;
+
+    }
+
+    100% {
+        scale: 500%;
+    }
+}
+@keyframes teleportAbra{
+    0%{
+        background-image: url("../IMG/PGL-063.png");
+        opacity: 100%;
+    }
+    20%{
+        background-image: url("../IMG/Abra10.png");
+        opacity: 90%;
+    }
+    40%{
+        background-image: url("../IMG/Abra30.png");
+        opacity: 70%;
+    }
+    70%{
+        background-image: url("../IMG/Abra70.png");
+        opacity: 30%;
+    }
+    100%{
+        background-image: url("../IMG/Abra100.png");
+        opacity: 0%;
+    }
+
+}
+@keyframes ballRotate{
+    0%{rotate: 0deg;}
+    25%{rotate: 90deg;}
+    50%{rotate: 180deg;}
+    100%{rotate: 360deg;}
+}
+@keyframes hoverCursor{
+    0%{    background-image: url("../IMG/cursorHover/cursor01.png");}
+    10%{    background-image: url("../IMG/cursorHover/cursor02.png");}
+    20%{    background-image: url("../IMG/cursorHover/cursor03.png");}
+    30%{    background-image: url("../IMG/cursorHover/cursor04.png");}
+    40%{    background-image: url("../IMG/cursorHover/cursor05.png");}
+    50%{    background-image: url("../IMG/cursorHover/cursor06.png");}
+    60%{    background-image: url("../IMG/cursorHover/cursor07.png");}
+    70%{    background-image: url("../IMG/cursorHover/cursor08.png");}
+    80%{    background-image: url("../IMG/cursorHover/cursor09.png");}
+    90%{    background-image: url("../IMG/cursorHover/cursor10.png");}
+    100%{    background-image: url("../IMG/cursorHover/cursor01.png");}
+}

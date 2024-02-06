@@ -1,0 +1,16 @@
+.icognito{
+    background-image: url('../IMG/rotom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3em;
+    height: 2em;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 5;
+    filter: drop-shadow(0 0 20px rgb(0, 140, 255));
+}
+.icognito:hover{
+    animation: rotomScale 1s;
+    scale: 500%;
+}

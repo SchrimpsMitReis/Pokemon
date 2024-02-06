@@ -1,0 +1,290 @@
+.openCardBG{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+.openCard{
+    max-width: 90%;
+    /* height: 90%; */
+    background-image: url("../IMG/ikoBg.png");
+    background-size: cover;
+    filter: blur();
+    border: 2px solid grey;
+    border-radius: 1em;
+    box-shadow: 0 0 2em 2em #2e67b191;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    gap: 1em;
+    scroll-behavior: none;
+
+    
+}
+.closeButton{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 1em;
+    top: 1em;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    background-image: url('../IMG/Pokeball.png');
+    background-size: cover;
+}
+.openCardLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.632);
+    padding: 1em;
+    border-color: 13px double #2E66B1 ;
+    border-radius: 2em;
+}
+.moveTable{
+    background-image: url("../IMG/ikoBgBlue.png");
+    border-radius: 20px;
+    border: 3px ridge #FECA1B;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+.moveTable h2{
+    color: #FECA1B;
+}
+
+.openCardRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.632);
+    align-items: center;
+    padding: 1em;
+    border-color: 13px double #2E66B1 ;
+    border-radius: 2em;
+}
+.chartContainer{
+    display: flex;
+    justify-content: center;
+}
+.closeButton:hover{
+    animation: ballRotate 2s infinite;
+    cursor: url("../IMG/CursorPointer50.gif"), 2s;
+    border: 5px solid #2E66B1;
+}
+.openCardBG h2{
+    font-size: 20px;
+}
+.openCardRight h2{
+    margin-bottom: 1em;
+}
+.images{
+    display:flex;
+    border: 0.5em double gray;
+    margin-bottom: 1em;
+    background-image: url("../IMG/textBg.png");
+}
+.images img{
+    width: 50%;
+}
+.romanImage{
+    display:flex;
+    justify-content: center;
+
+    border: 0.5em double gray;
+    margin-bottom: 1em;
+    background-image: url("../IMG/textBg.png");
+}
+.nameId{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    background-color:#2E66B1;
+    border-radius: 20px;
+    border: 3px ridge #FECA1B;
+    /* padding-left: 10px; */
+
+}
+.nameId p{
+    color: white
+}
+.types{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.type{
+    width: 13em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    font-family: 'Pokemon2';
+}
+.statValues{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+.allStats{
+    width: 100%;
+}
+.openCardRight h2{
+    margin-bottom: 1em;
+}
+.overflowHidden{
+    overflow-y: hidden !important;
+
+}
+#myChart{
+    width: 80% !important;
+    height: 80% !important;
+    object-fit: cover;
+}
+.fontHP{
+    background-color: #2E66B1;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.fontATK{
+    background-color: #E42829;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.fontDEF{
+    background-color: #FECA1B;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.fontSATK{
+    background-color: #6990c4;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.fontSDEF{
+    background-color: #e05a5a;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.fontINIT{
+    background-color: #fbdf81;
+    filter: drop-shadow(0px 0px 2px );
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    border-radius: 10px;
+    width: 100%
+}
+.ability{
+    background-color: #fbdf81;
+    padding: 2px;
+    border:3px ridge #FECA1B;
+    border-radius: 10px;
+    color: #E42829;
+    filter: drop-shadow(0 0 5px  #2E66B1);
+}
+.AllOrden{
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    background-color: #2E66B1;
+    height: 3em;
+    border: 2px ridge #FECA1B;
+    border-radius: 1em;
+    width: 22em;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.orden{
+    margin-left: -0.5em;
+    background-size: cover;
+    height: 4em;
+
+}
+.orden:hover{
+    animation: ballRotate 2s infinite ;
+}
+.fels{
+    background-image: url("../IMG/Felsorden.png");
+    width: 4.4em;
+
+}
+.quell{
+    background-image: url("../IMG/Quellorden.png");
+    width: 2.8em;
+
+}
+.donner{
+    background-image: url("../IMG/Donnerorden.png");
+    width: 4em;
+}
+.farb{
+    background-image: url("../IMG/Farborden.png");
+    width: 4.2em;
+
+}
+.seelen{
+    background-image: url("../IMG/Seelenorden.png");
+    width: 3.6em;
+
+}
+.sumpf{
+    background-image: url("../IMG/Sumpforden.png");
+    width: 4.4em;
+
+}
+.vulkan{
+    background-image: url("../IMG/Vulkanorden.png");
+    width: 4.1em;
+
+}
+.erd{
+    background-image: url("../IMG/Erdorden.png");
+    width: 2em;
+
+}

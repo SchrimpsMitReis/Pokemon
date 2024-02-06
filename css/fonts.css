@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url('../fonts/Pokemon Solid.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon2';
+    src: url('../fonts/Pokemon Classic.ttf');
+}
+@font-face {
+    font-family: 'Pokemon3';
+    src: url('../fonts/Ketchum.ttf');
+}

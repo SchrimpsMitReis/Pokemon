@@ -1,0 +1,22 @@
+.headlineBadge{
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    background-image: url("../IMG/ikoBgBlue.png");
+    background-size: cover;
+    border: 0.5em ridge #FECA1B;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    font-family: 'Pokemon2';
+    color:  #FECA1B;
+    width: 38em;
+    height: 10em;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10em;
+    left: 10em;
+    z-index: 7;
+}
+.headlineBadge img{
+    width: 10em;
+}

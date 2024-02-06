@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/pkmnType.css">
+    <link rel="stylesheet" href="./css/openCard.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/keyframes.css">
+    <link rel="stylesheet" href="./css/responsiv.css">
+    <link rel="stylesheet" href="./css/icognito.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/badgeOverlay.css">
+    <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
+    <!-- <script defer src="./node_modules/chartjs/dist/chart.umd.js"></script> -->
+    <!-- <script defer src="./installPokemon.js"></script> -->
+    <title>Pokedex</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+</head>
+
+<body id="body" onload="init()">
+    <header>
+        <img class="pokedexlogo" src="./IMG/PokedexLogo.png" alt="">
+        <div>
+            <div class="pokeSearch">
+                <div class="inputFrame">
+                    <input id="searchInput" type="text">
+                </div>
+                <div id="searchBtn" class="submitBtn" onclick="searchPokemon2()"></div>
+            </div>
+        </div>
+    </header>
+    
+    <div id="content" class="cardContent" ></div>
+    <div id="openCardBG" class="openCardBG d-none" ></div>
+    <div id="morePokemon" class="morePokemon" onclick="renderList()"></div>
+    <div id="loadingScreen" class="loadingScreen d-none"></div>
+    <div id="overlay" class="overlay d-none"></div>
+    <div id="badgeOverlay"></div>
+    <div id="pummeluffButton" class="pummeluffPlay" onclick="toggleMusic(); addOrden(5)"></div>
+    <div id="icognito" class="icognito"></div>
+    <audio id="myMusic">
+        <source src="./music.mp3" type="audio/mp3">
+    </audio>
+    
+</body>
+
+<script defer src="./JS/Pokemon.class.js"></script>
+<script defer src="./JS/PokemonDB.js"></script>
+<script defer src="./JS/Orden.class.js"></script>
+<script defer src="./JS/Achivements.js"></script>
+<script defer src="./JS/music.js"></script>
+<script defer src="./JS/search.js"></script>
+<script defer src="./JS/movingPKMN.js"></script>
+<!-- <script defer src="./script.js"></script> -->
+<script defer src="./JS/scriptNeu.js"></script>
+
+
+</html>

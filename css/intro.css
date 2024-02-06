@@ -1,0 +1,39 @@
+.introBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10%;
+
+}
+.introContainer{
+    width: 40%;
+    height: 40%;
+    font-family: "Pokemon2";
+    background-image: url("../IMG/ikoBg.png");
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 30px;
+    border: 4px ridge #FECA1B;
+
+}
+.introText{
+    color: #2E66B1;
+    padding: 40px;
+    width: 80%;
+    font-size: 20px;
+    overflow-x: hidden;
+
+
+
+
+}
+.profEich{
+    background-image: url("../IMG/ProfEich.png");
+    background-size: cover;
+    width: 20em;
+    height: 45em;
+    /* height: 90%; */
+}

@@ -1,0 +1,256 @@
+body {
+    /* 
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Pokemon2';
+    */
+    background-image: url("../IMG/ikoBg.png");
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    cursor: url("../IMG/cursorNorma.png") , auto;
+    padding-top: 2em;
+}
+::-webkit-scrollbar {
+    width: 40px;
+
+}
+::-webkit-scrollbar-thumb {
+    background-image: url("../IMG/Pokeball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #609CDA;
+    border:2px ridge #F7BE10;
+    border-radius: 40px;
+    /* background-size: 40px 40px; */
+    /* height: 40px; */
+
+}
+::-webkit-scrollbar-track {
+    border:3px ridge #F7BE10;
+    background-color: #2E66B1;
+    border-radius: 20px;
+    padding-right: 10px;
+
+
+}
+::-webkit-scrollbar{
+    width: 40px;
+}
+::-webkit-scrollbar-thumb {
+    background-image: url("../IMG/Pokeball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40px 40px;
+    height: 40px;
+
+}
+::-webkit-scrollbar-track {
+    border:3px ridge #F7BE10;
+    background-color: #2E66B1;
+    border-radius: 20px;
+    padding-right: 10px;
+
+
+}
+.cardContent{
+    /* 
+    margin-top: 2em;
+    width: 100%;
+    */
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+h1 {
+    font-size: cover;
+    font-family: 'Pokemon3';
+    color: #F7BE10;
+    z-index: 2;
+    bottom: 1em;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'Pokemon2';
+    color: #2E66B1;
+    z-index: 2;
+    bottom: 1em;
+
+}
+a, p{
+    font-size: 12px;
+    font-family: 'Pokemon2', 'Courier New', Courier, monospace;
+
+}
+.dexCard {
+    transition: cardScale-1 0.5s;
+    width: 15em;
+    height: 20em;
+    background-color: #d23737;
+    display: flex;
+    border-radius: 1em;
+    box-shadow: 0.1em 0 0.2em 0.1px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    padding-bottom: 1em;
+    
+}
+.dexCard {
+    transition: cardScale-1 0.5s;
+    width: 30em;
+    height: 40em;
+    background-color: #d23737;
+    display: flex;
+    border-radius: 1em;
+    box-shadow: 0.1em 0 0.2em 0.1px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.blueCircle{
+    fill: #609CDA;
+}
+.dexCard:hover .blueCircle{
+    animation: blinkLight 0.5s infinite;
+}
+.dexCard:hover {
+    box-shadow: 0.1em 0 1em 0.1em #2E66B1;
+    cursor: url("../IMG/CursorPointer50.gif"), auto;
+    animation: cardScale 0.5s;
+    scale: 110%;
+}
+.pokeImgContainer {
+    width: 80%;
+    background-image: url("../IMG/textBg.png");
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 1em solid silver;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.pokeImgContainer img {
+    transform: translateY(-20px);
+
+}
+
+
+.pokeImgContainer img:hover {
+    animation: imageScale 6s;
+    scale: 130%;
+
+}
+
+.dexCard h1 {
+    margin: 0;
+}
+.submitBtn{
+    background-image: url("../IMG/Pokeball.png");
+    background-size: cover;
+    width: 5em;
+    height: 5em;
+}
+.submitBtn:hover{
+    animation: ballRotate 2s infinite;}
+.d-none{
+    display: none !important;
+}
+
+.loadingScreen{
+    background-color: rgba(0, 0, 0, 0.575);
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pikachu{
+    width: 10em;
+}
+.morePokemon{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 220px;
+    height: 300px;
+    background-image: url("../IMG/abra.png");
+    background-size: cover;
+    z-index: 5;
+}
+.morePokemon:hover{
+    transition: teleportAbra 3s ease-in-out;
+    background-image: url("../IMG/abraHover.png");
+    filter: drop-shadow(0 0 20px #2E66B1) ;
+    cursor: url("../IMG/CursorPointer50.gif"), auto;
+}
+#searchInput:hover{
+    cursor: url("../IMG/CursorText.png"), auto;
+}
+.cardName{
+    background-color: #2E66B1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px ridge #F7BE10;
+}
+.pummeluffPlay{
+    position: fixed;
+    bottom: 8%;
+    left: 5%;
+    background-image: url('../IMG/play.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    border: 3px ridge #F7BE10;
+    filter: drop-shadow(0 0 10px );
+    width: 10em;
+    height: 10em;
+    z-index: 4;
+}
+.pummeluffPlay:hover{
+    cursor: url("../IMG/CursorPointer50.gif"), auto;
+}
+.pummeluffPause{
+    position: fixed;
+    bottom: 8%;
+    left: 5%;
+    background-image: url('../IMG/pause.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    border: 3px ridge #F7BE10;
+    filter: drop-shadow(0 0 10px );
+    width: 10em;
+    height: 10em;
+    z-index: 4;
+}
+.pummeluffPlay:hover{
+    cursor: url("../IMG/CursorPointer50.gif"), auto;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    z-index: 6;
+}
+#randomImage {
+    position: absolute;
+}

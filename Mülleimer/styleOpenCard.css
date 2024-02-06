@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+.openCard{
+    width: 90%;
+    height: 90%;
+    background-image: url("../IMG/ikoBg.png");
+    background-size: cover;
+    filter: blur();
+    border: 2px solid grey;
+    border-radius: 1em;
+    box-shadow: 0 0 2em 2em #2e67b191;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    
+}
+.openCardLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.632);
+    padding: 1em;
+    border-color: 13px double #2E66B1 ;
+    border-radius: 2em;
+}
+.openCardRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.632);
+    padding: 1em;
+    border-color: 13px double #2E66B1 ;
+    border-radius: 2em;
+}
+.nameId{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.types{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.statValues{
+    display: flex;
+    justify-content: space-between;
+}

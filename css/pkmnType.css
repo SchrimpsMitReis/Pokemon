@@ -1,0 +1,101 @@
+.normal{
+    background-color: #908B7F !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.grass{
+    background-color: #7BCE52 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.fire{
+    background-color: #F75231 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.water{
+    background-color: #399CFF !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.bug{
+    background-color: #ADBD21 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.flying{
+    background-color: #9CADF7 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.poison{
+    background-color: #B55AA5 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.electric{
+    background-color: #FFC631 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.fighting{
+    background-color: #A55239 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.ground{
+    background-color: #D6B55A !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.rock{
+    background-color: #BDA55A !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.ice{
+    background-color: #5ACEE7 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.psychic{
+    background-color: #FF73A5 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.ghost{
+    background-color: #6363B5 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.dragon{
+    background-color: #7B63E7 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.dark{
+    background-color: #735A4A !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.steel{
+    background-color: #ADADC6 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.fairy{
+    background-color: #E6A4E6 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.fairy{
+    background-color: #E6A4E6 !important;
+    border: 2px ridge #FECA1B !important;
+    margin-bottom: 10px;
+}
+.CT{
+    background-color: #FECA1B !important;
+    border:2px double #7B63E7 !important;
+    margin-bottom: 10px;
+
+}
