@@ -27,32 +27,39 @@ async function searchPokemon2() {
   setTimeout(() => {
     addOrden(6)
   }, 1000);
-  content.innerHTML = "";
   let pokemonFound = false;
+  let input = searchInput.value;
+  let searchResult = allPokemon.filter(pokemon => pokemon['name'].includes(input.toLowerCase()))
+  console.log("Input", input);
+  console.log("Search Result", searchResult);
+  content.innerHTML = "";
+  if (searchResult.length > 0){
+    pokemonFound = true;
 
-  let searchResult = allPokemon.filter(pokemon => pokemon['name'] == searchInput.value.toLowerCase())
-  for (let i = 0; i < searchResult.length; i++) {
-    const pokemon = searchResult[i];
-    let pName = pokemon['name'];
-    let pImg = pokemon['img1'];
-
-    content.innerHTML += /*html*/`
-      <div id="Card${i}" class="dexCard" onclick="showBackside(${i})">
-          <div>
-              <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-                <circle class="blueCircle" cx="40" cy="40" r="20"/>
-                <circle  cx="40" cy="40" r="20" fill="none" stroke="black" stroke-width="14" />
-                <circle  cx="40" cy="40" r="20" fill="none" stroke="white" stroke-width="10"/>
-              </svg>
-  
-          </div>
-          <div class="pokeImgContainer">
-              <img src="${pImg}" alt="Pokemon">
-          </div>
-          <h1 class="cardName">${pName}</h1>
-      </div>
-  
-      `
+    for (let i = 0; i < searchResult.length; i++) {
+      const pokemon = searchResult[i];
+      let pName = pokemon['name'];
+      let pImg = pokemon['img1'];
+      let indexOfPokemon = allPokemon.findIndex(p => p['name'] === pName)
+      console.log(pName, " ", indexOfPokemon);
+      content.innerHTML += /*html*/`
+        <div id="Card${i}" class="dexCard" onclick="showBackside(${indexOfPokemon})">
+            <div>
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="blueCircle" cx="40" cy="40" r="20"/>
+                  <circle  cx="40" cy="40" r="20" fill="none" stroke="black" stroke-width="14" />
+                  <circle  cx="40" cy="40" r="20" fill="none" stroke="white" stroke-width="10"/>
+                </svg>
+    
+            </div>
+            <div class="pokeImgContainer">
+                <img src="${pImg}" alt="Pokemon">
+            </div>
+            <h1 class="cardName">${pName}</h1>
+        </div>
+    
+        `
+    }
   }
 
   if (!pokemonFound && searchInput.value === "") {
