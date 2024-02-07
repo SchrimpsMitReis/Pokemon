@@ -4,7 +4,7 @@ async function searchPokemon() {
   let searchInputGroß = () => {
     return searchInput.charAt(0).toUpperCase() + searchInput.slice(1)
   }
-  let index = pokemonEnglish.indexOf(searchInput)
+  let index = allPokemon.indexOf(searchInput)
   let elementId = `Card${index}`
   if (index !== -1) {
     scrollToPoint(elementId)
@@ -16,31 +16,50 @@ async function searchPokemon() {
 
 function scrollToPoint(elementId) {
   const cardX = document.getElementById(elementId);
-
   if (cardX) {
     cardX.scrollIntoView({ behavior: 'smooth' });
   } else {
     console.error(`Element mit der ID "${elementId}" wurde nicht gefunden.`);
   }
 }
-async function searchPokemon2(){
-  addOrden(3)
+
+async function searchPokemon2() {
+  setTimeout(() => {
+    addOrden(6)
+  }, 1000);
   content.innerHTML = "";
   let pokemonFound = false;
 
-  for (let i = 0; i < pokemonEnglish.length; i++) {
-      const pokemon = pokemonEnglish[i].toLowerCase();
-      if (pokemon.includes(searchInput.value.toLowerCase())) {
-          await loadPokemon(pokemon, i);
-          pokemonFound = true;
-      }
+  let searchResult = allPokemon.filter(pokemon => pokemon['name'] == searchInput.value.toLowerCase())
+  for (let i = 0; i < searchResult.length; i++) {
+    const pokemon = searchResult[i];
+    let pName = pokemon['name'];
+    let pImg = pokemon['img1'];
+
+    content.innerHTML += /*html*/`
+      <div id="Card${i}" class="dexCard" onclick="showBackside(${i})">
+          <div>
+              <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <circle class="blueCircle" cx="40" cy="40" r="20"/>
+                <circle  cx="40" cy="40" r="20" fill="none" stroke="black" stroke-width="14" />
+                <circle  cx="40" cy="40" r="20" fill="none" stroke="white" stroke-width="10"/>
+              </svg>
+  
+          </div>
+          <div class="pokeImgContainer">
+              <img src="${pImg}" alt="Pokemon">
+          </div>
+          <h1 class="cardName">${pName}</h1>
+      </div>
+  
+      `
   }
 
   if (!pokemonFound && searchInput.value === "") {
     rangeCounter = 0;
-      renderList();
+    renderDex();
   } else if (!pokemonFound) {
-      renderMissingNo();
+    renderMissingNo();
   }
   searchInput.value = "";
 }
@@ -63,9 +82,10 @@ function renderName() {
   }
 
   function renderNextName() {
-    if (i < pokemonEnglish.length) {
-      const actualName = pokemonEnglish[i];
+    if (i < allPokemon.length) {
+      const actualName = allPokemon[i]['name'];
       input.placeholder = "";
+      console.log(actualName);
       renderLetters(actualName, 0);
       i++;
     }

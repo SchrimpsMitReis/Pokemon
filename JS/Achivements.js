@@ -23,6 +23,7 @@ function addOrden(x){
     if (myGymBadges.includes(orden.name)){
         console.log(`Abzeichen ${orden.name} bereits vorhanden.`)
     }else{
+        levelUp.play()
         myGymBadges.push(orden.name)
         let overlay = document.getElementById('badgeOverlay');
         overlay.classList.remove('d-none');

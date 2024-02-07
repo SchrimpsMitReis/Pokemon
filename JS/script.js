@@ -6,25 +6,25 @@
 // const openCardBG = document.getElementById('openCardBG');
 // const pummeluffButton = document.getElementById('pummeluffButton')
 // content.innerHTML = "";
-let rangeCounter = 0;
-console.clear()
-const pokemonEnglish = ["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise","Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot","Rattata","Raticate","Spearow","Fearow","Ekans","Arbok","Pikachu","Raichu","Sandshrew","Sandslash","Nidoran-f","Nidorina","Nidoqueen","Nidoran-m","Nidorino","Nidoking","Clefairy","Clefable","Vulpix","Ninetales","Jigglypuff","Wigglytuff","Zubat","Golbat","Oddish","Gloom","Vileplume","Paras","Parasect","Venonat","Venomoth","Diglett",
-                        "Dugtrio","Meowth","Persian","Psyduck","Golduck","Mankey","Primeape","Growlithe","Arcanine","Poliwag","Poliwhirl","Poliwrath","Abra","Kadabra","Alakazam","Machop","Machoke","Machamp","Bellsprout","Weepinbell","Victreebel","Tentacool","Tentacruel","Geodude","Graveler","Golem","Ponyta","Rapidash","Slowpoke","Slowbro","Magnemite","Magneton","Farfetchd","Doduo","Dodrio","Seel","Dewgong","Grimer","Muk","Shellder","Cloyster","Gastly","Haunter","Gengar","Onix","Drowzee","Hypno","Krabby","Kingler","Voltorb",
-                        "Electrode","Exeggcute","Exeggutor","Cubone","Marowak","Hitmonlee","Hitmonchan","Lickitung","Koffing","Weezing","Rhyhorn","Rhydon","Chansey","Tangela","Kangaskhan","Horsea","Seadra","Goldeen","Seaking","Staryu","Starmie","Mr-Mime","Scyther","Jynx","Electabuzz","Magmar","Pinsir","Tauros","Magikarp","Gyarados","Lapras","Ditto","Eevee","Vaporeon","Jolteon","Flareon","Porygon","Omanyte","Omastar","Kabuto","Kabutops","Aerodactyl","Snorlax","Articuno","Zapdos","Moltres","Dratini","Dragonair","Dragonite","Mewtwo",
-                        "Mew","Chikorita","Bayleef","Meganium","Cyndaquil","Quilava","Typhlosion","Totodile","Croconaw","Feraligatr","Sentret","Furret","Hoothoot","Noctowl","Ledyba","Ledian","Spinarak","Ariados","Crobat","Chinchou","Lanturn","Pichu","Cleffa","Igglybuff","Togepi","Togetic","Natu","Xatu","Mareep","Flaaffy","Ampharos","Bellossom","Marill","Azumarill","Sudowoodo","Politoed","Hoppip","Skiploom","Jumpluff","Aipom","Sunkern","Sunflora","Yanma","Wooper","Quagsire","Espeon","Umbreon","Murkrow","Slowking","Misdreavus",
-                        "Unown","Wobbuffet","Girafarig","Pineco","Forretress","Dunsparce","Gligar","Steelix","Snubbull","Granbull","Qwilfish","Scizor","Shuckle","Heracross","Sneasel","Teddiursa","Ursaring","Slugma","Magcargo","Swinub","Piloswine","Corsola","Remoraid","Octillery","Delibird","Mantine","Skarmory","Houndour","Houndoom","Kingdra","Phanpy","Donphan","Porygon2","Stantler","Smeargle","Tyrogue","Hitmontop","Smoochum","Elekid","Magby","Miltank","Blissey","Raikou","Entei","Suicune","Larvitar","Pupitar","Tyranitar","Lugia","Ho-Oh",
-                        "Celebi","Treecko","Grovyle","Sceptile","Torchic","Combusken","Blaziken","Mudkip","Marshtomp","Swampert","Poochyena","Mightyena","Zigzagoon","Linoone","Wurmple","Silcoon","Beautifly","Cascoon","Dustox","Lotad","Lombre","Ludicolo","Seedot","Nuzleaf","Shiftry","Taillow","Swellow","Wingull","Pelipper","Ralts","Kirlia","Gardevoir","Surskit","Masquerain","Shroomish","Breloom","Slakoth","Vigoroth","Slaking","Nincada","Ninjask","Shedinja","Whismur","Loudred","Exploud","Makuhita","Hariyama","Azurill","Nosepass","Skitty",
-                        "Delcatty","Sableye","Mawile","Aron","Lairon","Aggron","Meditite","Medicham","Electrike","Manectric","Plusle","Minun","Volbeat","Illumise","Roselia","Gulpin","Swalot","Carvanha","Sharpedo","Wailmer","Wailord","Numel","Camerupt","Torkoal","Spoink","Grumpig","Spinda","Trapinch","Vibrava","Flygon","Cacnea","Cacturne","Swablu","Altaria","Zangoose","Seviper","Lunatone","Solrock","Barboach","Whiscash","Corphish","Crawdaunt","Baltoy","Claydol","Lileep","Cradily","Anorith","Armaldo","Feebas","Milotic",
-                        "Kecleon","Shuppet","Banette","Duskull","Dusclops","Tropius","Chimecho","Absol","Wynaut","Snorunt","Glalie","Spheal","Sealeo","Walrein","Clamperl","Huntail","Gorebyss","Relicanth","Luvdisc","Bagon","Shelgon","Salamence","Beldum","Metang","Metagross","Regirock","Regice","Registeel","Latias","Latios","Kyogre","Groudon","Rayquaza","Jirachi","Deoxys-normal","Turtwig","Grotle","Torterra","Chimchar","Monferno","Infernape","Piplup","Prinplup","Empoleon","Starly","Staravia","Staraptor","Bidoof","Bibarel",
-                        "Kricketot","Kricketune","Shinx","Luxio","Luxray","Budew","Roserade","Cranidos","Rampardos","Shieldon","Bastiodon","Burmy","wormadam-plant","Mothim","Combee","Vespiquen","Pachirisu","Buizel","Floatzel","Cherubi","Cherrim","Shellos","Gastrodon","Ambipom","Drifloon","Drifblim","Buneary","Lopunny","Mismagius","Honchkrow","Glameow","Purugly","Chingling","Stunky","Skuntank","Bronzor","Bronzong","Bonsly","mime-jr","Happiny","Chatot","Spiritomb","Gible","Gabite","Garchomp","Munchlax","Riolu","Lucario","Hippopotas","Hippowdon",
-                        "Skorupi","Drapion","Croagunk","Toxicroak","Carnivine","Finneon","Lumineon","Mantyke","Snover","Abomasnow","Weavile","Magnezone","Lickilicky","Rhyperior","Tangrowth","Electivire","Magmortar","Togekiss","Yanmega","Leafeon","Glaceon","Gliscor","Mamoswine","Porygon-Z","Gallade","Probopass","Dusknoir","Froslass","Rotom","Uxie","Mesprit","Azelf","Dialga","Palkia","Heatran","Regigigas","giratina-altered","Cresselia","Phione","Manaphy","Darkrai","shaymin-land","Arceus","Victini","Snivy","Servine","Serperior","Tepig","Pignite","Emboar",
-                        "Oshawott","Dewott","Samurott","Patrat","Watchog","Lillipup","Herdier","Stoutland","Purrloin","Liepard","Pansage","Simisage","Pansear","Simisear","Panpour","Simipour","Munna","Musharna","Pidove","Tranquill","Unfezant","Blitzle","Zebstrika","Roggenrola","Boldore","Gigalith","Woobat","Swoobat","Drilbur","Excadrill","Audino","Timburr","Gurdurr","Conkeldurr","Tympole","Palpitoad","Seismitoad","Throh","Sawk","Sewaddle","Swadloon","Leavanny","Venipede","Whirlipede","Scolipede","Cottonee","Whimsicott","Petilil","Lilligant","basculin-red-striped",
-                        "Sandile","Krokorok","Krookodile","Darumaka","darmanitan-standard","Maractus","Dwebble","Crustle","Scraggy","Scrafty","Sigilyph","Yamask","Cofagrigus","Tirtouga","Carracosta","Archen","Archeops","Trubbish","Garbodor","Zorua","Zoroark","Minccino","Cinccino","Gothita","Gothorita","Gothitelle","Solosis","Duosion","Reuniclus","Ducklett","Swanna","Vanillite","Vanillish","Vanilluxe","Deerling","Sawsbuck","Emolga","Karrablast","Escavalier","Foongus","Amoonguss","Frillish","Jellicent","Alomomola","Joltik","Galvantula","Ferroseed","Ferrothorn",
-                        "Klink","Klang","Klinklang","Tynamo","Eelektrik","Eelektross","Elgyem","Beheeyem","Litwick","Lampent","Chandelure","Axew","Fraxure","Haxorus","Cubchoo","Beartic","Cryogonal","Shelmet","Accelgor","Stunfisk","Mienfoo","Mienshao","Druddigon","Golett","Golurk","Pawniard","Bisharp","Bouffalant","Rufflet","Braviary","Vullaby","Mandibuzz","Heatmor","Durant","Deino","Zweilous","Hydreigon","Larvesta","Volcarona","Cobalion","Terrakion","Virizion","tornadus-incarnate","thundurus-incarnate","Reshiram","Zekrom","landorus-incarnate","Kyurem","keldeo-ordinary","meloetta-aria",
-                        "Genesect","Chespin","Quilladin","Chesnaught","Fennekin","Braixen","Delphox","Froakie","Frogadier","Greninja","Bunnelby","Diggersby","Fletchling","Fletchinder","Talonflame","Scatterbug","Spewpa","Vivillon","Litleo","Pyroar","flabebe","Floette","Florges","Skiddo","Gogoat","Pancham","Pangoro","Furfrou","Espurr","meowstic-male","Honedge","Doublade","aegislash-shield","Spritzee","Aromatisse","Swirlix","Slurpuff","Inkay","Malamar","Binacle","Barbaracle","Skrelp","Dragalge","Clauncher","Clawitzer","Helioptile","Heliolisk","Tyrunt","Tyrantrum","Amaura",
-                        "Aurorus","Sylveon","Hawlucha","Dedenne","Carbink","Goomy","Sliggoo","Goodra","Klefki","Phantump","Trevenant","pumpkaboo-average","gourgeist-average","Bergmite","Avalugg","Noibat","Noivern","Xerneas","Yveltal","zygarde-50","Diancie","Hoopa","Volcanion","Rowlet","Dartrix","Decidueye","Litten","Torracat","Incineroar","Popplio","Brionne","Primarina","Pikipek","Trumbeak","Toucannon","Yungoos","Gumshoos","Grubbin","Charjabug","Vikavolt","Crabrawler","Crabominable","oricorio-baile","Cutiefly","Ribombee","Rockruff","lycanroc-midday","wishiwashi-solo","Mareanie","Toxapex",
-                        "Mudbray","Mudsdale","Dewpider","Araquanid","Fomantis","Lurantis","Morelull","Shiinotic","Salandit","Salazzle","Stufful","Bewear","Bounsweet","Steenee","Tsareena","Comfey","Oranguru","Passimian","Wimpod","Golisopod","Sandygast","Palossand","Pyukumuku","type-null","Silvally","minior-red-meteor","Komala","Turtonator","Togedemaru","mimikyu-disguised","Bruxish","Drampa","Dhelmise","Jangmo-o","Hakamo-o","Kommo-o","tapu-koko","Tapu-Lele","Tapu-Bulu","tapu-bulu","Tapu-Fini","Cosmog","Cosmoem","Solgaleo","Lunala"
-]
+// let rangeCounter = 0;
+// console.clear()
+// const pokemonEnglish = ["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise","Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot","Rattata","Raticate","Spearow","Fearow","Ekans","Arbok","Pikachu","Raichu","Sandshrew","Sandslash","Nidoran-f","Nidorina","Nidoqueen","Nidoran-m","Nidorino","Nidoking","Clefairy","Clefable","Vulpix","Ninetales","Jigglypuff","Wigglytuff","Zubat","Golbat","Oddish","Gloom","Vileplume","Paras","Parasect","Venonat","Venomoth","Diglett",
+//                         "Dugtrio","Meowth","Persian","Psyduck","Golduck","Mankey","Primeape","Growlithe","Arcanine","Poliwag","Poliwhirl","Poliwrath","Abra","Kadabra","Alakazam","Machop","Machoke","Machamp","Bellsprout","Weepinbell","Victreebel","Tentacool","Tentacruel","Geodude","Graveler","Golem","Ponyta","Rapidash","Slowpoke","Slowbro","Magnemite","Magneton","Farfetchd","Doduo","Dodrio","Seel","Dewgong","Grimer","Muk","Shellder","Cloyster","Gastly","Haunter","Gengar","Onix","Drowzee","Hypno","Krabby","Kingler","Voltorb",
+//                         "Electrode","Exeggcute","Exeggutor","Cubone","Marowak","Hitmonlee","Hitmonchan","Lickitung","Koffing","Weezing","Rhyhorn","Rhydon","Chansey","Tangela","Kangaskhan","Horsea","Seadra","Goldeen","Seaking","Staryu","Starmie","Mr-Mime","Scyther","Jynx","Electabuzz","Magmar","Pinsir","Tauros","Magikarp","Gyarados","Lapras","Ditto","Eevee","Vaporeon","Jolteon","Flareon","Porygon","Omanyte","Omastar","Kabuto","Kabutops","Aerodactyl","Snorlax","Articuno","Zapdos","Moltres","Dratini","Dragonair","Dragonite","Mewtwo",
+//                         "Mew","Chikorita","Bayleef","Meganium","Cyndaquil","Quilava","Typhlosion","Totodile","Croconaw","Feraligatr","Sentret","Furret","Hoothoot","Noctowl","Ledyba","Ledian","Spinarak","Ariados","Crobat","Chinchou","Lanturn","Pichu","Cleffa","Igglybuff","Togepi","Togetic","Natu","Xatu","Mareep","Flaaffy","Ampharos","Bellossom","Marill","Azumarill","Sudowoodo","Politoed","Hoppip","Skiploom","Jumpluff","Aipom","Sunkern","Sunflora","Yanma","Wooper","Quagsire","Espeon","Umbreon","Murkrow","Slowking","Misdreavus",
+//                         "Unown","Wobbuffet","Girafarig","Pineco","Forretress","Dunsparce","Gligar","Steelix","Snubbull","Granbull","Qwilfish","Scizor","Shuckle","Heracross","Sneasel","Teddiursa","Ursaring","Slugma","Magcargo","Swinub","Piloswine","Corsola","Remoraid","Octillery","Delibird","Mantine","Skarmory","Houndour","Houndoom","Kingdra","Phanpy","Donphan","Porygon2","Stantler","Smeargle","Tyrogue","Hitmontop","Smoochum","Elekid","Magby","Miltank","Blissey","Raikou","Entei","Suicune","Larvitar","Pupitar","Tyranitar","Lugia","Ho-Oh",
+//                         "Celebi","Treecko","Grovyle","Sceptile","Torchic","Combusken","Blaziken","Mudkip","Marshtomp","Swampert","Poochyena","Mightyena","Zigzagoon","Linoone","Wurmple","Silcoon","Beautifly","Cascoon","Dustox","Lotad","Lombre","Ludicolo","Seedot","Nuzleaf","Shiftry","Taillow","Swellow","Wingull","Pelipper","Ralts","Kirlia","Gardevoir","Surskit","Masquerain","Shroomish","Breloom","Slakoth","Vigoroth","Slaking","Nincada","Ninjask","Shedinja","Whismur","Loudred","Exploud","Makuhita","Hariyama","Azurill","Nosepass","Skitty",
+//                         "Delcatty","Sableye","Mawile","Aron","Lairon","Aggron","Meditite","Medicham","Electrike","Manectric","Plusle","Minun","Volbeat","Illumise","Roselia","Gulpin","Swalot","Carvanha","Sharpedo","Wailmer","Wailord","Numel","Camerupt","Torkoal","Spoink","Grumpig","Spinda","Trapinch","Vibrava","Flygon","Cacnea","Cacturne","Swablu","Altaria","Zangoose","Seviper","Lunatone","Solrock","Barboach","Whiscash","Corphish","Crawdaunt","Baltoy","Claydol","Lileep","Cradily","Anorith","Armaldo","Feebas","Milotic",
+//                         "Kecleon","Shuppet","Banette","Duskull","Dusclops","Tropius","Chimecho","Absol","Wynaut","Snorunt","Glalie","Spheal","Sealeo","Walrein","Clamperl","Huntail","Gorebyss","Relicanth","Luvdisc","Bagon","Shelgon","Salamence","Beldum","Metang","Metagross","Regirock","Regice","Registeel","Latias","Latios","Kyogre","Groudon","Rayquaza","Jirachi","Deoxys-normal","Turtwig","Grotle","Torterra","Chimchar","Monferno","Infernape","Piplup","Prinplup","Empoleon","Starly","Staravia","Staraptor","Bidoof","Bibarel",
+//                         "Kricketot","Kricketune","Shinx","Luxio","Luxray","Budew","Roserade","Cranidos","Rampardos","Shieldon","Bastiodon","Burmy","wormadam-plant","Mothim","Combee","Vespiquen","Pachirisu","Buizel","Floatzel","Cherubi","Cherrim","Shellos","Gastrodon","Ambipom","Drifloon","Drifblim","Buneary","Lopunny","Mismagius","Honchkrow","Glameow","Purugly","Chingling","Stunky","Skuntank","Bronzor","Bronzong","Bonsly","mime-jr","Happiny","Chatot","Spiritomb","Gible","Gabite","Garchomp","Munchlax","Riolu","Lucario","Hippopotas","Hippowdon",
+//                         "Skorupi","Drapion","Croagunk","Toxicroak","Carnivine","Finneon","Lumineon","Mantyke","Snover","Abomasnow","Weavile","Magnezone","Lickilicky","Rhyperior","Tangrowth","Electivire","Magmortar","Togekiss","Yanmega","Leafeon","Glaceon","Gliscor","Mamoswine","Porygon-Z","Gallade","Probopass","Dusknoir","Froslass","Rotom","Uxie","Mesprit","Azelf","Dialga","Palkia","Heatran","Regigigas","giratina-altered","Cresselia","Phione","Manaphy","Darkrai","shaymin-land","Arceus","Victini","Snivy","Servine","Serperior","Tepig","Pignite","Emboar",
+//                         "Oshawott","Dewott","Samurott","Patrat","Watchog","Lillipup","Herdier","Stoutland","Purrloin","Liepard","Pansage","Simisage","Pansear","Simisear","Panpour","Simipour","Munna","Musharna","Pidove","Tranquill","Unfezant","Blitzle","Zebstrika","Roggenrola","Boldore","Gigalith","Woobat","Swoobat","Drilbur","Excadrill","Audino","Timburr","Gurdurr","Conkeldurr","Tympole","Palpitoad","Seismitoad","Throh","Sawk","Sewaddle","Swadloon","Leavanny","Venipede","Whirlipede","Scolipede","Cottonee","Whimsicott","Petilil","Lilligant","basculin-red-striped",
+//                         "Sandile","Krokorok","Krookodile","Darumaka","darmanitan-standard","Maractus","Dwebble","Crustle","Scraggy","Scrafty","Sigilyph","Yamask","Cofagrigus","Tirtouga","Carracosta","Archen","Archeops","Trubbish","Garbodor","Zorua","Zoroark","Minccino","Cinccino","Gothita","Gothorita","Gothitelle","Solosis","Duosion","Reuniclus","Ducklett","Swanna","Vanillite","Vanillish","Vanilluxe","Deerling","Sawsbuck","Emolga","Karrablast","Escavalier","Foongus","Amoonguss","Frillish","Jellicent","Alomomola","Joltik","Galvantula","Ferroseed","Ferrothorn",
+//                         "Klink","Klang","Klinklang","Tynamo","Eelektrik","Eelektross","Elgyem","Beheeyem","Litwick","Lampent","Chandelure","Axew","Fraxure","Haxorus","Cubchoo","Beartic","Cryogonal","Shelmet","Accelgor","Stunfisk","Mienfoo","Mienshao","Druddigon","Golett","Golurk","Pawniard","Bisharp","Bouffalant","Rufflet","Braviary","Vullaby","Mandibuzz","Heatmor","Durant","Deino","Zweilous","Hydreigon","Larvesta","Volcarona","Cobalion","Terrakion","Virizion","tornadus-incarnate","thundurus-incarnate","Reshiram","Zekrom","landorus-incarnate","Kyurem","keldeo-ordinary","meloetta-aria",
+//                         "Genesect","Chespin","Quilladin","Chesnaught","Fennekin","Braixen","Delphox","Froakie","Frogadier","Greninja","Bunnelby","Diggersby","Fletchling","Fletchinder","Talonflame","Scatterbug","Spewpa","Vivillon","Litleo","Pyroar","flabebe","Floette","Florges","Skiddo","Gogoat","Pancham","Pangoro","Furfrou","Espurr","meowstic-male","Honedge","Doublade","aegislash-shield","Spritzee","Aromatisse","Swirlix","Slurpuff","Inkay","Malamar","Binacle","Barbaracle","Skrelp","Dragalge","Clauncher","Clawitzer","Helioptile","Heliolisk","Tyrunt","Tyrantrum","Amaura",
+//                         "Aurorus","Sylveon","Hawlucha","Dedenne","Carbink","Goomy","Sliggoo","Goodra","Klefki","Phantump","Trevenant","pumpkaboo-average","gourgeist-average","Bergmite","Avalugg","Noibat","Noivern","Xerneas","Yveltal","zygarde-50","Diancie","Hoopa","Volcanion","Rowlet","Dartrix","Decidueye","Litten","Torracat","Incineroar","Popplio","Brionne","Primarina","Pikipek","Trumbeak","Toucannon","Yungoos","Gumshoos","Grubbin","Charjabug","Vikavolt","Crabrawler","Crabominable","oricorio-baile","Cutiefly","Ribombee","Rockruff","lycanroc-midday","wishiwashi-solo","Mareanie","Toxapex",
+//                         "Mudbray","Mudsdale","Dewpider","Araquanid","Fomantis","Lurantis","Morelull","Shiinotic","Salandit","Salazzle","Stufful","Bewear","Bounsweet","Steenee","Tsareena","Comfey","Oranguru","Passimian","Wimpod","Golisopod","Sandygast","Palossand","Pyukumuku","type-null","Silvally","minior-red-meteor","Komala","Turtonator","Togedemaru","mimikyu-disguised","Bruxish","Drampa","Dhelmise","Jangmo-o","Hakamo-o","Kommo-o","tapu-koko","Tapu-Lele","Tapu-Bulu","tapu-bulu","Tapu-Fini","Cosmog","Cosmoem","Solgaleo","Lunala"
+// ]
 let currentPokemon;
 async function searchPokemon(){
     let searchInputValue = searchInput.value;
@@ -38,22 +38,22 @@ async function searchPokemon(){
         closeWindow();
     }
 }
-async function loadPokemon(x, index) {
-    try{
-        showloadingScreen()
-        let pokeName = x.toLocaleLowerCase()
-        const API = `https://pokeapi.co/api/v2/pokemon/${pokeName}`;
-        let response = await fetch(API)
-        currentPokemon = await response.json()
-        loadingScreen.classList.add("d-none");
-    }catch(e){
-        // console.log(`Computer sagt: 'Nein, weil ${e}'`);
-    }
-    finally{
-        renderPokemonInfo(x, index)
-    }
+// async function loadPokemon(x, index) {
+//     try{
+//         showloadingScreen()
+//         let pokeName = x.toLocaleLowerCase()
+//         const API = `https://pokeapi.co/api/v2/pokemon/${pokeName}`;
+//         let response = await fetch(API)
+//         currentPokemon = await response.json()
+//         loadingScreen.classList.add("d-none");
+//     }catch(e){
+//         // console.log(`Computer sagt: 'Nein, weil ${e}'`);
+//     }
+//     finally{
+//         renderPokemonInfo(x, index)
+//     }
 
-}
+// }
 
 async function loadPokemon2(x) {
     let pokeName = x.toLocaleLowerCase()
@@ -295,124 +295,121 @@ async function showBackside(index) {
         missingNoMania()
     }
 }
-function checkType(type, id){
-    let typefield = document.getElementById(`${id}`);
-    typefield.classList = "";
-    typefield.classList.add('type')
-    if( type == "normal"){
-        typefield.classList.add("normal")
-    }
-    else if( type == "grass"){
-        typefield.classList.add("grass")
-    }
-    else if( type == "fire"){
-        typefield.classList.add("fire")
-    }
-    else if( type == "water"){
-        typefield.classList.add("water")
-    }
-    else if( type == "bug"){
-        typefield.classList.add("bug")
-    }
-    else if( type == "flying"){
-        typefield.classList.add("flying")
-    }
-    else if( type == "poison"){
-        typefield.classList.add("poison")
-    }
-    else if( type == "electric"){
-        typefield.classList.add("electric")
-    }
-    else if( type == "fighting"){
-        typefield.classList.add("fighting")
-    }
-    else if( type == "ground"){
-        typefield.classList.add("ground")
-    }
-    else if( type == "rock"){
-        typefield.classList.add("rock")
-    }
-    else if( type == "ice"){
-        typefield.classList.add("ice")
-    }
-    else if( type == "psychic"){
-        typefield.classList.add("psychic")
-    }
-    else if( type == "ghost"){
-        typefield.classList.add("ghost")
-    }
-    else if( type == "dragon"){
-        typefield.classList.add("dragon")
-    }
-    else if( type == "dark"){
-        typefield.classList.add("dark")
-    }
-    else if( type == "steel"){
-        typefield.classList.add("steel")
-    }
-    else if( type === "Coding Trainee"){
-        typefield.classList.add("CT")
-    }
-    else if( type == "fairy"){
-        typefield.classList.add("fairy")
-    }else{
-        typefield.classList.add('d-none')
-    }
-}
-async function renderList() {
-    addOrden(4)        
-    let rangeMin = 100 * rangeCounter;
-    let rangeMax = 100 * (rangeCounter + 1);
-    if(rangeMax >= pokemonEnglish.length){
-        rangeMax = pokemonEnglish.length;
-        rangeMin = pokemonEnglish.length;
-    }
-    for (let i = rangeMin; i < rangeMax; i++) {
-        const pokemon = pokemonEnglish[i];
-        try{
-            await loadPokemon(pokemon, i)            
-        }catch(e){
-            // console.log("Karte konnte nicht geladen werden : " + e)
-        }
+// function checkType(type, id){
+//     let typefield = document.getElementById(`${id}`);
+//     typefield.classList = "";
+//     typefield.classList.add('type')
+//     if( type == "normal"){
+//         typefield.classList.add("normal")
+//     }
+//     else if( type == "grass"){
+//         typefield.classList.add("grass")
+//     }
+//     else if( type == "fire"){
+//         typefield.classList.add("fire")
+//     }
+//     else if( type == "water"){
+//         typefield.classList.add("water")
+//     }
+//     else if( type == "bug"){
+//         typefield.classList.add("bug")
+//     }
+//     else if( type == "flying"){
+//         typefield.classList.add("flying")
+//     }
+//     else if( type == "poison"){
+//         typefield.classList.add("poison")
+//     }
+//     else if( type == "electric"){
+//         typefield.classList.add("electric")
+//     }
+//     else if( type == "fighting"){
+//         typefield.classList.add("fighting")
+//     }
+//     else if( type == "ground"){
+//         typefield.classList.add("ground")
+//     }
+//     else if( type == "rock"){
+//         typefield.classList.add("rock")
+//     }
+//     else if( type == "ice"){
+//         typefield.classList.add("ice")
+//     }
+//     else if( type == "psychic"){
+//         typefield.classList.add("psychic")
+//     }
+//     else if( type == "ghost"){
+//         typefield.classList.add("ghost")
+//     }
+//     else if( type == "dragon"){
+//         typefield.classList.add("dragon")
+//     }
+//     else if( type == "dark"){
+//         typefield.classList.add("dark")
+//     }
+//     else if( type == "steel"){
+//         typefield.classList.add("steel")
+//     }
+//     else if( type === "Coding Trainee"){
+//         typefield.classList.add("CT")
+//     }
+//     else if( type == "fairy"){
+//         typefield.classList.add("fairy")
+//     }else{
+//         typefield.classList.add('d-none')
+//     }
+// }
+// async function renderList() {
+//     addOrden(4)        
+//     let rangeMin = 100 * rangeCounter;
+//     let rangeMax = 100 * (rangeCounter + 1);
+//     if(rangeMax >= pokemonEnglish.length){
+//         rangeMax = pokemonEnglish.length;
+//         rangeMin = pokemonEnglish.length;
+//     }
+//     for (let i = rangeMin; i < rangeMax; i++) {
+//         const pokemon = pokemonEnglish[i];
+//         try{
+//             await loadPokemon(pokemon, i)            
+//         }catch(e){
+//             // console.log("Karte konnte nicht geladen werden : " + e)
+//         }
         
-    }
-    rangeCounter++
-}
-function closeWindow(){
-    const openCardBG = document.getElementById('openCardBG');
-    openCardBG.classList.add('d-none');
-    openCardBG.innerHTML = "";
-}
-function introSequenz(){
-    const overlay = document.getElementById('overlay');
-    overlay.classList.remove('d-none');
+//     }
+//     rangeCounter++
+// }
+// function closeWindow(){
+//     const openCardBG = document.getElementById('openCardBG');
+//     openCardBG.classList.add('d-none');
+//     openCardBG.innerHTML = "";
+// }
+// function introSequenz(){
+//     const overlay = document.getElementById('overlay');
+//     overlay.classList.remove('d-none');
 
-    let html = /*html*/`
-            <div class="introBg">
-                <div class="introContainer">
-                    <p class="introText">"Willkommen in der Welt der Pokémon!<br><br> 
-                    Meine Name ist Professor Eich. Die Menschen nennen mich auch den Pokémon Professor. <br><br>
-                    Diese Welt wird von Wesen bewohnt, die man Pokémon nennt. <br> Für manche sind Pokemon Haustiere, ander tragen Kämpfe mit Ihnen aus. Ich selbst... <br>
-                    ... habe mein Hobby zum Beruf gemacht und studiere Pokémon. <br><br>
-                    Eine unglaubliche Reise in die Welt der Pokémon erwartet Dich!
-                    Eine Welt voller Wunder, Abenteuer und Geheimnisse! <br>Kurz gesagt, ein Traum wird wahr!</p>
-                </div>
-                <div class="profEich"></div>
-            </div>
+//     let html = /*html*/`
+//             <div class="introBg">
+//                 <div class="introContainer">
+//                     <p class="introText">"Willkommen in der Welt der Pokémon!<br><br> 
+//                     Meine Name ist Professor Eich. Die Menschen nennen mich auch den Pokémon Professor. <br><br>
+//                     Diese Welt wird von Wesen bewohnt, die man Pokémon nennt. <br> Für manche sind Pokemon Haustiere, ander tragen Kämpfe mit Ihnen aus. Ich selbst... <br>
+//                     ... habe mein Hobby zum Beruf gemacht und studiere Pokémon. <br><br>
+//                     Eine unglaubliche Reise in die Welt der Pokémon erwartet Dich!
+//                     Eine Welt voller Wunder, Abenteuer und Geheimnisse! <br>Kurz gesagt, ein Traum wird wahr!</p>
+//                 </div>
+//                 <div class="profEich"></div>
+//             </div>
 
-    `
-    overlay.innerHTML = html;
-    document.addEventListener('click', ()=>{
-        toggleMusic();
-        // toggleFullScreen();
-        addOrden(0)
-        overlay.classList.add('d-none')
-    }, {once:true});
-}
-function block(){
-    let a = b;
-    a = a;
-}
+//     `
+//     overlay.innerHTML = html;
+//     document.addEventListener('click', ()=>{
+//         toggleMusic();
+//         // toggleFullScreen();
+//         addOrden(0)
+//         overlay.classList.add('d-none')
+//     }, {once:true});
+// }
+
 // Prüfe, ob die Funktion für den Vollbildmodus unterstützt wird
 function toggleFullScreen() {
     if (!document.fullscreenElement &&    // alternative Schreibweisen für Browser-Kompatibilität

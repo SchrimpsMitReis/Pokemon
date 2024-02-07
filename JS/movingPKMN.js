@@ -31,7 +31,9 @@ document.body.addEventListener('mousemove', function (event) {
 });
 
 icognito.addEventListener('click', () => {
-    addOrden(2);
+    setTimeout(() => {
+        addOrden(2)
+    }, 1000);
     let age = ()=>{
         let date = new Date()
         let year = date.getFullYear()

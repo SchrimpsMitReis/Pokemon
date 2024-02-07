@@ -1,3 +1,4 @@
+const axios = require('axios')
 const fs = require('fs');
 const pokemonEnglish = ["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise","Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot","Rattata","Raticate","Spearow","Fearow","Ekans","Arbok","Pikachu","Raichu","Sandshrew","Sandslash","Nidoran-f","Nidorina","Nidoqueen","Nidoran-m","Nidorino","Nidoking","Clefairy","Clefable","Vulpix","Ninetales","Jigglypuff","Wigglytuff","Zubat","Golbat","Oddish","Gloom","Vileplume","Paras","Parasect","Venonat","Venomoth","Diglett",
                         "Dugtrio","Meowth","Persian","Psyduck","Golduck","Mankey","Primeape","Growlithe","Arcanine","Poliwag","Poliwhirl","Poliwrath","Abra","Kadabra","Alakazam","Machop","Machoke","Machamp","Bellsprout","Weepinbell","Victreebel","Tentacool","Tentacruel","Geodude","Graveler","Golem","Ponyta","Rapidash","Slowpoke","Slowbro","Magnemite","Magneton","Farfetchd","Doduo","Dodrio","Seel","Dewgong","Grimer","Muk","Shellder","Cloyster","Gastly","Haunter","Gengar","Onix","Drowzee","Hypno","Krabby","Kingler","Voltorb",
@@ -26,11 +27,11 @@ class Pokemon{
         this.typ2 = typ2;
         this.moves = moves;
         this.statsHP = statsHP;
-        this.satsATK = statsATK;
-        this.satsDEF = statsDEF;
-        this.satsINIT = statsINIT;
-        this.satsSATK = statsSATK;
-        this.satsSDEF = statsSDEF;
+        this.statsATK = statsATK;
+        this.statsDEF = statsDEF;
+        this.statsINIT = statsINIT;
+        this.statsSATK = statsSATK;
+        this.statsSDEF = statsSDEF;
     }
 }
 
@@ -57,15 +58,15 @@ async function loadPokemon2(x) {
 async function downloadPokemon(i){
     // let pokemonIndex = pokemonEnglish[index];
     let myPokemon = await loadPokemon2(i);
-    let frontHome = myPokemon['sprites']['other']['home']['front_default'];
-    let frontClassic = myPokemon['sprites']['front_default'];
+    let pkmnName = myPokemon['name']
+    let frontHome = await saveConnect(myPokemon['sprites']['other']['home']['front_default'], pkmnName, 'home' );
+    let frontClassic = await saveConnect(myPokemon['sprites']['front_default'], pkmnName, 'classic' );
     let statsHP = myPokemon['stats']['0']['base_stat'];
     let statsATK = myPokemon['stats']['1']['base_stat'];
     let statsDEF = myPokemon['stats']['2']['base_stat'];
     let statsSATK = myPokemon['stats']['3']['base_stat'];
     let statsSDEF = myPokemon['stats']['4']['base_stat'];
     let statsINIT = myPokemon['stats']['5']['base_stat'];
-    let pkmnName = myPokemon['name']
     let pkmnId = myPokemon['id']
     let pkmnType1 = myPokemon['types']['0']['type']['name']
     let pkmnType2 = myPokemon['types'][1] && myPokemon['types'][1]['type']['name'];
@@ -92,6 +93,33 @@ function saveAllData(){
           console.log('Die Datei wurde erfolgreich erstellt.');
         }
       });
+}
+// Bilder speichern
+async function saveConnect(url,pokeName,side) {
+    const bildUrl = `${url}`;
+    // Pfad und Dateiname, unter dem das Bild gespeichert werden soll
+    const speicherpfad = `../IMG/DexImg/${pokeName}_${side}.png`;
+    
+    axios({
+      method: 'get',
+      url: bildUrl,
+      responseType: 'stream'
+    })
+      .then((response) => {
+        // Pipe (Weiterleiten) des Bildstroms in eine lokale Datei
+        response.data.pipe(fs.createWriteStream(speicherpfad));
+    
+        // Optional: Auf das Ende des Schreibvorgangs warten
+        response.data.on('end', () => {
+          console.log('Bild erfolgreich heruntergeladen und gespeichert.');
+        });
+      })
+      .catch((error) => {
+        console.error('Fehler beim Herunterladen des Bildes:', error);
+      });
+    
+    return speicherpfad
+
 }
 console.clear()
 createAPI()

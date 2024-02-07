@@ -8,10 +8,10 @@ class Pokemon{
         this.typ2 = typ2;
         this.moves = moves;
         this.statsHP = statsHP;
-        this.satsATK = statsATK;
-        this.satsDEF = statsDEF;
-        this.satsINIT = statsINIT;
-        this.satsSATK = statsSATK;
-        this.satsSDEF = statsSDEF;
+        this.statsATK = statsATK;
+        this.statsDEF = statsDEF;
+        this.statsINIT = statsINIT;
+        this.statsSATK = statsSATK;
+        this.statsSDEF = statsSDEF;
     }
 }
