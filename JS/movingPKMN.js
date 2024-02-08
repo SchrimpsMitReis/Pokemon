@@ -1,5 +1,3 @@
-
-
 let icognito = document.getElementById('icognito')
 
 let icognitoCSS = document.querySelector('.icognito')
@@ -16,7 +14,6 @@ function movePokemon(x, y) {
     posY += y
     updatePosition()
 }
-
 document.body.addEventListener('mousemove', function (event) {
     let mouseX = event.clientX; 
     let mouseY = event.clientY; 
@@ -29,7 +26,6 @@ document.body.addEventListener('mousemove', function (event) {
 
     }
 });
-
 icognito.addEventListener('click', () => {
     setTimeout(() => {
         addOrden(2)

@@ -16,7 +16,6 @@ async function download(){
 }
 async function saveConnect(url) {
     const bildUrl = `${url}`;
-    // Pfad und Dateiname, unter dem das Bild gespeichert werden soll
     const speicherpfad = `test.png`;
     
     axios({
@@ -25,10 +24,8 @@ async function saveConnect(url) {
       responseType: 'stream'
     })
       .then((response) => {
-        // Pipe (Weiterleiten) des Bildstroms in eine lokale Datei
         response.data.pipe(fs.createWriteStream(speicherpfad));
     
-        // Optional: Auf das Ende des Schreibvorgangs warten
         response.data.on('end', () => {
           console.log('Bild erfolgreich heruntergeladen und gespeichert.');
         });

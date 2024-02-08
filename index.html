@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="./css/intro.css">
     <link rel="stylesheet" href="./css/badgeOverlay.css">
     <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
-    <!-- <script defer src="./node_modules/chartjs/dist/chart.umd.js"></script> -->
-    <!-- <script defer src="./installPokemon.js"></script> -->
     <title>Pokedex</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
@@ -30,7 +28,7 @@
                 <div class="inputFrame">
                     <input id="searchInput" type="text">
                 </div>
-                <div id="searchBtn" class="submitBtn" onclick="searchPokemon2()"></div>
+                <div id="searchBtn" class="submitBtn" onclick="searchPokemon()"></div>
             </div>
         </div>
     </header>
@@ -43,9 +41,6 @@
     <div id="badgeOverlay"></div>
     <div id="pummeluffButton" class="pummeluffPlay" onclick="toggleMusic(); addOrden(5)"></div>
     <div id="icognito" class="icognito"></div>
-    <audio id="myMusic">
-        <source src="./audio/music.mp3" type="audio/mp3">
-    </audio>
     
 </body>
 
@@ -56,7 +51,7 @@
 <script defer src="./JS/music.js"></script>
 <script defer src="./JS/search.js"></script>
 <script defer src="./JS/movingPKMN.js"></script>
-<!-- <script defer src="./script.js"></script> -->
+<script defer src="./JS/declarations.js"></script>
 <script defer src="./JS/scriptNeu.js"></script>
 
 

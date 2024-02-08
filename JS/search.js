@@ -1,37 +1,10 @@
-
 async function searchPokemon() {
-  let searchInput = document.getElementById('searchInput').value;
-  let searchInputGroß = () => {
-    return searchInput.charAt(0).toUpperCase() + searchInput.slice(1)
-  }
-  let index = allPokemon.indexOf(searchInput)
-  let elementId = `Card${index}`
-  if (index !== -1) {
-    scrollToPoint(elementId)
-    showBackside(index);
-  } else {
-    // console.log("Pokemon nicht gefunden", searchInput);
-  }
-}
-
-function scrollToPoint(elementId) {
-  const cardX = document.getElementById(elementId);
-  if (cardX) {
-    cardX.scrollIntoView({ behavior: 'smooth' });
-  } else {
-    console.error(`Element mit der ID "${elementId}" wurde nicht gefunden.`);
-  }
-}
-
-async function searchPokemon2() {
   setTimeout(() => {
     addOrden(6)
   }, 1000);
   let pokemonFound = false;
   let input = searchInput.value;
   let searchResult = allPokemon.filter(pokemon => pokemon['name'].includes(input.toLowerCase()))
-  console.log("Input", input);
-  console.log("Search Result", searchResult);
   content.innerHTML = "";
   if (searchResult.length > 0){
     pokemonFound = true;
@@ -41,7 +14,6 @@ async function searchPokemon2() {
       let pName = pokemon['name'];
       let pImg = pokemon['img1'];
       let indexOfPokemon = allPokemon.findIndex(p => p['name'] === pName)
-      console.log(pName, " ", indexOfPokemon);
       content.innerHTML += /*html*/`
         <div id="Card${i}" class="dexCard" onclick="showBackside(${indexOfPokemon})">
             <div>
@@ -61,7 +33,10 @@ async function searchPokemon2() {
         `
     }
   }
-
+  if (input === "clearall"){
+    localStorage.clear();
+    location.reload();
+  }
   if (!pokemonFound && searchInput.value === "") {
     rangeCounter = 0;
     renderDex();
@@ -70,18 +45,13 @@ async function searchPokemon2() {
   }
   searchInput.value = "";
 }
-
-const input = document.getElementById('searchInput')
-input.placeholder = "";
-
-
 function renderName() {
   let i = 0;
 
   function renderLetters(actualName, j) {
     if (j < actualName.length) {
       const letter = actualName.charAt(j);
-      input.placeholder += letter;
+      searchInput.placeholder += letter;
       setTimeout(() => renderLetters(actualName, j + 1), 500);
     } else {
       setTimeout(renderNextName, 1500);
@@ -91,8 +61,7 @@ function renderName() {
   function renderNextName() {
     if (i < allPokemon.length) {
       const actualName = allPokemon[i]['name'];
-      input.placeholder = "";
-      console.log(actualName);
+      searchInput.placeholder = "";
       renderLetters(actualName, 0);
       i++;
     }
@@ -100,5 +69,3 @@ function renderName() {
 
   renderNextName(); // Starte den Prozess
 }
-
-// Starte die Funktion

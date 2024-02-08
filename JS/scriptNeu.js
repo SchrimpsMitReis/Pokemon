@@ -1,13 +1,4 @@
-const body = document.getElementById('body');
-const content = document.getElementById('content');
-const loadingScreen = document.getElementById('loadingScreen');
-const searchInput = document.getElementById('searchInput');
-const searchSubmitButton = document.getElementById("searchBtn")
-const openCardBG = document.getElementById('openCardBG');
-const pummeluffButton = document.getElementById('pummeluffButton')
 content.innerHTML = "";
-
-let rangeCounter = 0;
 
 function init(){
     renderDex()
@@ -42,7 +33,6 @@ function introSequenz(){
             overlay.classList.add('d-none')
     }, {once:true});
 }
-
 function renderDex(){
     let rangeMin = 100 * rangeCounter;
     let rangeMax = 100 * (rangeCounter + 1);
@@ -107,7 +97,7 @@ async function showBackside(index) {
                     <h1 class="ability">${capitalizeFirstLetter(move)}</h1>
                 `
             }catch(e){
-                // console.log("No Ability " + e);
+                // console.error("No Ability " + e);
                 return "";
             }
         };
@@ -170,7 +160,7 @@ async function showBackside(index) {
         try{
             checkType(pkmnType2, "type2");
         }catch(e){
-            // console.log("Fehler kein 2. Typ : " + e);
+            // console.error("Fehler kein 2. Typ : " + e);
         }
         showChart(statsHP,statsATK,statsDEF,statsSATK,statsSDEF,statsINIT)
     }else{
@@ -181,6 +171,7 @@ function capitalizeFirstLetter(name) {
     return name.charAt(0).toUpperCase() + name.slice(1);
 }
 function closeWindow(){
+    closeButton.play()
     const openCardBG = document.getElementById('openCardBG');
     openCardBG.classList.add('d-none');
     openCardBG.innerHTML = "";
@@ -287,6 +278,7 @@ function renderMissingNo() {
     }, 1000);
     let pName = "MissingNo";
     let pImg = "./IMG/MissingNo.png"
+    
     content.innerHTML += /*html*/`
     <div id="CardMissigno" class="dexCard" onclick="showBackside('MissingNo')">
         <div>

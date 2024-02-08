@@ -1,7 +1,3 @@
-let music = document.getElementById("myMusic");
-music.volume = 0.03;
-
-
 function toggleMusic() {
     if (music.paused) {
       music.play();
@@ -44,3 +40,11 @@ Slap.volume = 0.2
 let Pummel = new Audio()
 Pummel.src = "../audio/jigglypuff.mp3"
 Pummel.volume = 0.2
+
+let closeButton = new Audio()
+closeButton.src = "../audio/closeButton.mp3"
+closeButton.volume = 0.1;
+
+let music = new Audio()
+music.src = "../audio/music.mp3";
+music.volume = 0.03;
