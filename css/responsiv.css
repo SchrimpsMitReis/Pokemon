@@ -82,6 +82,16 @@
         height: 12em;
         background-image: url("../IMG/abraHover.png");
     }
+    .font{
+        width:auto;
+        font-size: 20px;
+    }
+    .openCardRight{
+        height: max-content;
+    }
+    .statValues{
+        gap: 0;
+    }
 }
 @media (max-width: 450px){
     .statValues{

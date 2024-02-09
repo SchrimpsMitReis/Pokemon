@@ -15,7 +15,8 @@ const allPokemon = [
     "statsDEF": 49,
     "statsINIT": 45,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "ivysaur",
@@ -33,7 +34,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 60,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "venusaur",
@@ -51,7 +53,8 @@ const allPokemon = [
     "statsDEF": 83,
     "statsINIT": 80,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "charmander",
@@ -68,7 +71,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 65,
     "statsSATK": 60,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "charmeleon",
@@ -85,7 +89,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 80,
     "statsSATK": 80,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "charizard",
@@ -103,7 +108,8 @@ const allPokemon = [
     "statsDEF": 78,
     "statsINIT": 100,
     "statsSATK": 109,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "squirtle",
@@ -120,7 +126,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 43,
     "statsSATK": 50,
-    "statsSDEF": 64
+    "statsSDEF": 64,
+    "caught": false
   },
   {
     "name": "wartortle",
@@ -137,7 +144,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 58,
     "statsSATK": 65,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "blastoise",
@@ -154,7 +162,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 78,
     "statsSATK": 85,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "caterpie",
@@ -171,7 +180,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 45,
     "statsSATK": 20,
-    "statsSDEF": 20
+    "statsSDEF": 20,
+    "caught": false
   },
   {
     "name": "metapod",
@@ -187,7 +197,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 30,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "butterfree",
@@ -205,7 +216,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 70,
     "statsSATK": 90,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "weedle",
@@ -223,7 +235,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 50,
     "statsSATK": 20,
-    "statsSDEF": 20
+    "statsSDEF": 20,
+    "caught": false
   },
   {
     "name": "kakuna",
@@ -240,7 +253,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 35,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "beedrill",
@@ -258,7 +272,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 75,
     "statsSATK": 45,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "pidgey",
@@ -277,7 +292,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 56,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "pidgeotto",
@@ -296,7 +312,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 71,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "pidgeot",
@@ -315,7 +332,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 101,
     "statsSATK": 70,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "rattata",
@@ -333,7 +351,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 72,
     "statsSATK": 25,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "raticate",
@@ -351,7 +370,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 97,
     "statsSATK": 50,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "spearow",
@@ -369,7 +389,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 70,
     "statsSATK": 31,
-    "statsSDEF": 31
+    "statsSDEF": 31,
+    "caught": false
   },
   {
     "name": "fearow",
@@ -387,7 +408,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 100,
     "statsSATK": 61,
-    "statsSDEF": 61
+    "statsSDEF": 61,
+    "caught": false
   },
   {
     "name": "ekans",
@@ -405,7 +427,8 @@ const allPokemon = [
     "statsDEF": 44,
     "statsINIT": 55,
     "statsSATK": 40,
-    "statsSDEF": 54
+    "statsSDEF": 54,
+    "caught": false
   },
   {
     "name": "arbok",
@@ -423,7 +446,8 @@ const allPokemon = [
     "statsDEF": 69,
     "statsINIT": 80,
     "statsSATK": 65,
-    "statsSDEF": 79
+    "statsSDEF": 79,
+    "caught": false
   },
   {
     "name": "pikachu",
@@ -440,7 +464,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 90,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "raichu",
@@ -457,7 +482,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 110,
     "statsSATK": 90,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "sandshrew",
@@ -474,7 +500,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 40,
     "statsSATK": 20,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "sandslash",
@@ -491,7 +518,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 65,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "nidoran-f",
@@ -509,7 +537,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 41,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "nidorina",
@@ -527,7 +556,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 56,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "nidoqueen",
@@ -546,7 +576,8 @@ const allPokemon = [
     "statsDEF": 87,
     "statsINIT": 76,
     "statsSATK": 75,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "nidoran-m",
@@ -564,7 +595,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 50,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "nidorino",
@@ -582,7 +614,8 @@ const allPokemon = [
     "statsDEF": 57,
     "statsINIT": 65,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "nidoking",
@@ -601,7 +634,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 85,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "clefairy",
@@ -619,7 +653,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 35,
     "statsSATK": 60,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "clefable",
@@ -637,7 +672,8 @@ const allPokemon = [
     "statsDEF": 73,
     "statsINIT": 60,
     "statsSATK": 95,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "vulpix",
@@ -654,7 +690,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 65,
     "statsSATK": 50,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "ninetales",
@@ -671,7 +708,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 100,
     "statsSATK": 81,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "jigglypuff",
@@ -690,7 +728,8 @@ const allPokemon = [
     "statsDEF": 20,
     "statsINIT": 20,
     "statsSATK": 45,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "wigglytuff",
@@ -709,7 +748,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 45,
     "statsSATK": 85,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "zubat",
@@ -727,7 +767,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 55,
     "statsSATK": 30,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "golbat",
@@ -745,7 +786,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 90,
     "statsSATK": 65,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "oddish",
@@ -763,7 +805,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 30,
     "statsSATK": 75,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "gloom",
@@ -781,7 +824,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "vileplume",
@@ -799,7 +843,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 50,
     "statsSATK": 110,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "paras",
@@ -818,7 +863,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 25,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "parasect",
@@ -837,7 +883,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 30,
     "statsSATK": 60,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "venonat",
@@ -856,7 +903,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 45,
     "statsSATK": 40,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "venomoth",
@@ -875,7 +923,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 90,
     "statsSATK": 90,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "diglett",
@@ -893,7 +942,8 @@ const allPokemon = [
     "statsDEF": 25,
     "statsINIT": 95,
     "statsSATK": 35,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "dugtrio",
@@ -911,7 +961,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 120,
     "statsSATK": 50,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "meowth",
@@ -929,7 +980,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 90,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "persian",
@@ -947,7 +999,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 115,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "psyduck",
@@ -965,7 +1018,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 55,
     "statsSATK": 65,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "golduck",
@@ -983,7 +1037,8 @@ const allPokemon = [
     "statsDEF": 78,
     "statsINIT": 85,
     "statsSATK": 95,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "mankey",
@@ -1001,7 +1056,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 70,
     "statsSATK": 35,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "primeape",
@@ -1019,7 +1075,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 95,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "growlithe",
@@ -1037,7 +1094,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 60,
     "statsSATK": 70,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "arcanine",
@@ -1055,7 +1113,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 95,
     "statsSATK": 100,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "poliwag",
@@ -1073,7 +1132,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 90,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "poliwhirl",
@@ -1091,7 +1151,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 90,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "poliwrath",
@@ -1110,7 +1171,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 70,
     "statsSATK": 70,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "abra",
@@ -1128,7 +1190,8 @@ const allPokemon = [
     "statsDEF": 15,
     "statsINIT": 90,
     "statsSATK": 105,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "kadabra",
@@ -1146,7 +1209,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 105,
     "statsSATK": 120,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "alakazam",
@@ -1164,7 +1228,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 120,
     "statsSATK": 135,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "machop",
@@ -1182,7 +1247,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 35,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "machoke",
@@ -1200,7 +1266,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 45,
     "statsSATK": 50,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "machamp",
@@ -1218,7 +1285,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 55,
     "statsSATK": 65,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "bellsprout",
@@ -1236,7 +1304,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 40,
     "statsSATK": 70,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "weepinbell",
@@ -1254,7 +1323,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 55,
     "statsSATK": 85,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "victreebel",
@@ -1272,7 +1342,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 70,
     "statsSATK": 100,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "tentacool",
@@ -1291,7 +1362,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 70,
     "statsSATK": 50,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "tentacruel",
@@ -1310,7 +1382,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 100,
     "statsSATK": 80,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "geodude",
@@ -1329,7 +1402,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 20,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "graveler",
@@ -1348,7 +1422,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 35,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "golem",
@@ -1367,7 +1442,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 45,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "ponyta",
@@ -1385,7 +1461,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 90,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "rapidash",
@@ -1403,7 +1480,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 105,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "slowpoke",
@@ -1422,7 +1500,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 15,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "slowbro",
@@ -1441,7 +1520,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 30,
     "statsSATK": 100,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "magnemite",
@@ -1460,7 +1540,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 45,
     "statsSATK": 95,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "magneton",
@@ -1479,7 +1560,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 70,
     "statsSATK": 120,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "farfetchd",
@@ -1498,7 +1580,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 60,
     "statsSATK": 58,
-    "statsSDEF": 62
+    "statsSDEF": 62,
+    "caught": false
   },
   {
     "name": "doduo",
@@ -1517,7 +1600,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 75,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "dodrio",
@@ -1536,7 +1620,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 110,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "seel",
@@ -1554,7 +1639,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 45,
     "statsSATK": 45,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "dewgong",
@@ -1573,7 +1659,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 70,
     "statsSATK": 70,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "grimer",
@@ -1591,7 +1678,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 25,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "muk",
@@ -1609,7 +1697,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 50,
     "statsSATK": 65,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "shellder",
@@ -1627,7 +1716,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 40,
     "statsSATK": 45,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "cloyster",
@@ -1646,7 +1736,8 @@ const allPokemon = [
     "statsDEF": 180,
     "statsINIT": 70,
     "statsSATK": 85,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "gastly",
@@ -1663,7 +1754,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 80,
     "statsSATK": 100,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "haunter",
@@ -1680,7 +1772,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 95,
     "statsSATK": 115,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "gengar",
@@ -1697,7 +1790,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 110,
     "statsSATK": 130,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "onix",
@@ -1716,7 +1810,8 @@ const allPokemon = [
     "statsDEF": 160,
     "statsINIT": 70,
     "statsSATK": 30,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "drowzee",
@@ -1734,7 +1829,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 42,
     "statsSATK": 43,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "hypno",
@@ -1752,7 +1848,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 67,
     "statsSATK": 73,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "krabby",
@@ -1770,7 +1867,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 50,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "kingler",
@@ -1788,7 +1886,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 75,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "voltorb",
@@ -1806,7 +1905,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 100,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "electrode",
@@ -1824,7 +1924,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 150,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "exeggcute",
@@ -1842,7 +1943,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "exeggutor",
@@ -1860,7 +1962,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 55,
     "statsSATK": 125,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "cubone",
@@ -1878,7 +1981,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 35,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "marowak",
@@ -1896,7 +2000,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 45,
     "statsSATK": 50,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "hitmonlee",
@@ -1914,7 +2019,8 @@ const allPokemon = [
     "statsDEF": 53,
     "statsINIT": 87,
     "statsSATK": 35,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "hitmonchan",
@@ -1932,7 +2038,8 @@ const allPokemon = [
     "statsDEF": 79,
     "statsINIT": 76,
     "statsSATK": 35,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "lickitung",
@@ -1950,7 +2057,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 30,
     "statsSATK": 60,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "koffing",
@@ -1968,7 +2076,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 35,
     "statsSATK": 60,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "weezing",
@@ -1986,7 +2095,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 60,
     "statsSATK": 85,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "rhyhorn",
@@ -2005,7 +2115,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 25,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "rhydon",
@@ -2024,7 +2135,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 40,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "chansey",
@@ -2042,7 +2154,8 @@ const allPokemon = [
     "statsDEF": 5,
     "statsINIT": 50,
     "statsSATK": 35,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "tangela",
@@ -2060,7 +2173,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 60,
     "statsSATK": 100,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "kangaskhan",
@@ -2078,7 +2192,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 90,
     "statsSATK": 40,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "horsea",
@@ -2096,7 +2211,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 60,
     "statsSATK": 70,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "seadra",
@@ -2114,7 +2230,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 85,
     "statsSATK": 95,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "goldeen",
@@ -2132,7 +2249,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 63,
     "statsSATK": 35,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "seaking",
@@ -2150,7 +2268,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 68,
     "statsSATK": 65,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "staryu",
@@ -2168,7 +2287,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 85,
     "statsSATK": 70,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "starmie",
@@ -2187,7 +2307,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 115,
     "statsSATK": 100,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "mr-mime",
@@ -2206,7 +2327,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 90,
     "statsSATK": 100,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "scyther",
@@ -2225,7 +2347,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 105,
     "statsSATK": 55,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "jynx",
@@ -2244,7 +2367,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 95,
     "statsSATK": 115,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "electabuzz",
@@ -2261,7 +2385,8 @@ const allPokemon = [
     "statsDEF": 57,
     "statsINIT": 105,
     "statsSATK": 95,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "magmar",
@@ -2278,7 +2403,8 @@ const allPokemon = [
     "statsDEF": 57,
     "statsINIT": 93,
     "statsSATK": 100,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "pinsir",
@@ -2296,7 +2422,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 85,
     "statsSATK": 55,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "tauros",
@@ -2314,7 +2441,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 110,
     "statsSATK": 40,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "magikarp",
@@ -2331,7 +2459,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 80,
     "statsSATK": 15,
-    "statsSDEF": 20
+    "statsSDEF": 20,
+    "caught": false
   },
   {
     "name": "gyarados",
@@ -2349,7 +2478,8 @@ const allPokemon = [
     "statsDEF": 79,
     "statsINIT": 81,
     "statsSATK": 60,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "lapras",
@@ -2368,7 +2498,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 60,
     "statsSATK": 85,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "ditto",
@@ -2385,7 +2516,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 48,
     "statsSATK": 48,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "eevee",
@@ -2403,7 +2535,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 55,
     "statsSATK": 45,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "vaporeon",
@@ -2420,7 +2553,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 65,
     "statsSATK": 110,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "jolteon",
@@ -2437,7 +2571,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 130,
     "statsSATK": 110,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "flareon",
@@ -2454,7 +2589,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 65,
     "statsSATK": 95,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "porygon",
@@ -2472,7 +2608,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "omanyte",
@@ -2491,7 +2628,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 35,
     "statsSATK": 90,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "omastar",
@@ -2510,7 +2648,8 @@ const allPokemon = [
     "statsDEF": 125,
     "statsINIT": 55,
     "statsSATK": 115,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "kabuto",
@@ -2529,7 +2668,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 55,
     "statsSATK": 55,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "kabutops",
@@ -2548,7 +2688,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 80,
     "statsSATK": 65,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "aerodactyl",
@@ -2567,7 +2708,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 130,
     "statsSATK": 60,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "snorlax",
@@ -2585,7 +2727,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 30,
     "statsSATK": 65,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "articuno",
@@ -2603,7 +2746,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 85,
     "statsSATK": 95,
-    "statsSDEF": 125
+    "statsSDEF": 125,
+    "caught": false
   },
   {
     "name": "zapdos",
@@ -2621,7 +2765,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 100,
     "statsSATK": 125,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "moltres",
@@ -2639,7 +2784,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 90,
     "statsSATK": 125,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "dratini",
@@ -2656,7 +2802,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 50,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "dragonair",
@@ -2673,7 +2820,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 70,
     "statsSATK": 70,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "dragonite",
@@ -2691,7 +2839,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 80,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "mewtwo",
@@ -2708,7 +2857,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 130,
     "statsSATK": 154,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "mew",
@@ -2724,7 +2874,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "chikorita",
@@ -2741,7 +2892,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 45,
     "statsSATK": 49,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "bayleef",
@@ -2758,7 +2910,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 60,
     "statsSATK": 63,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "meganium",
@@ -2775,7 +2928,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 80,
     "statsSATK": 83,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "cyndaquil",
@@ -2792,7 +2946,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 65,
     "statsSATK": 60,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "quilava",
@@ -2809,7 +2964,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 80,
     "statsSATK": 80,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "typhlosion",
@@ -2826,7 +2982,8 @@ const allPokemon = [
     "statsDEF": 78,
     "statsINIT": 100,
     "statsSATK": 109,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "totodile",
@@ -2843,7 +3000,8 @@ const allPokemon = [
     "statsDEF": 64,
     "statsINIT": 43,
     "statsSATK": 44,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "croconaw",
@@ -2860,7 +3018,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 58,
     "statsSATK": 59,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "feraligatr",
@@ -2877,7 +3036,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 78,
     "statsSATK": 79,
-    "statsSDEF": 83
+    "statsSDEF": 83,
+    "caught": false
   },
   {
     "name": "sentret",
@@ -2895,7 +3055,8 @@ const allPokemon = [
     "statsDEF": 34,
     "statsINIT": 20,
     "statsSATK": 35,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "furret",
@@ -2913,7 +3074,8 @@ const allPokemon = [
     "statsDEF": 64,
     "statsINIT": 90,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "hoothoot",
@@ -2932,7 +3094,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 50,
     "statsSATK": 36,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "noctowl",
@@ -2951,7 +3114,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 70,
     "statsSATK": 86,
-    "statsSDEF": 96
+    "statsSDEF": 96,
+    "caught": false
   },
   {
     "name": "ledyba",
@@ -2970,7 +3134,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 55,
     "statsSATK": 40,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "ledian",
@@ -2989,7 +3154,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 85,
     "statsSATK": 55,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "spinarak",
@@ -3008,7 +3174,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 30,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "ariados",
@@ -3027,7 +3194,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "crobat",
@@ -3045,7 +3213,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 130,
     "statsSATK": 70,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "chinchou",
@@ -3064,7 +3233,8 @@ const allPokemon = [
     "statsDEF": 38,
     "statsINIT": 67,
     "statsSATK": 56,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "lanturn",
@@ -3083,7 +3253,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 67,
     "statsSATK": 76,
-    "statsSDEF": 76
+    "statsSDEF": 76,
+    "caught": false
   },
   {
     "name": "pichu",
@@ -3100,7 +3271,8 @@ const allPokemon = [
     "statsDEF": 15,
     "statsINIT": 60,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "cleffa",
@@ -3118,7 +3290,8 @@ const allPokemon = [
     "statsDEF": 28,
     "statsINIT": 15,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "igglybuff",
@@ -3137,7 +3310,8 @@ const allPokemon = [
     "statsDEF": 15,
     "statsINIT": 15,
     "statsSATK": 40,
-    "statsSDEF": 20
+    "statsSDEF": 20,
+    "caught": false
   },
   {
     "name": "togepi",
@@ -3155,7 +3329,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 20,
     "statsSATK": 40,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "togetic",
@@ -3174,7 +3349,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 40,
     "statsSATK": 80,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "natu",
@@ -3193,7 +3369,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 70,
     "statsSATK": 70,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "xatu",
@@ -3212,7 +3389,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 95,
     "statsSATK": 95,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "mareep",
@@ -3229,7 +3407,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 35,
     "statsSATK": 65,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "flaaffy",
@@ -3246,7 +3425,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 45,
     "statsSATK": 80,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "ampharos",
@@ -3263,7 +3443,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 55,
     "statsSATK": 115,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "bellossom",
@@ -3280,7 +3461,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 50,
     "statsSATK": 90,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "marill",
@@ -3299,7 +3481,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 40,
     "statsSATK": 20,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "azumarill",
@@ -3318,7 +3501,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "sudowoodo",
@@ -3336,7 +3520,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 30,
     "statsSATK": 30,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "politoed",
@@ -3354,7 +3539,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 70,
     "statsSATK": 90,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "hoppip",
@@ -3373,7 +3559,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 50,
     "statsSATK": 35,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "skiploom",
@@ -3392,7 +3579,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 80,
     "statsSATK": 45,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "jumpluff",
@@ -3411,7 +3599,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 110,
     "statsSATK": 55,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "aipom",
@@ -3429,7 +3618,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 85,
     "statsSATK": 40,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "sunkern",
@@ -3447,7 +3637,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 30,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "sunflora",
@@ -3465,7 +3656,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 30,
     "statsSATK": 105,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "yanma",
@@ -3484,7 +3676,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 95,
     "statsSATK": 75,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "wooper",
@@ -3503,7 +3696,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 15,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "quagsire",
@@ -3522,7 +3716,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 35,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "espeon",
@@ -3539,7 +3734,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 110,
     "statsSATK": 130,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "umbreon",
@@ -3556,7 +3752,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 65,
     "statsSATK": 60,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "murkrow",
@@ -3575,7 +3772,8 @@ const allPokemon = [
     "statsDEF": 42,
     "statsINIT": 91,
     "statsSATK": 85,
-    "statsSDEF": 42
+    "statsSDEF": 42,
+    "caught": false
   },
   {
     "name": "slowking",
@@ -3594,7 +3792,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 30,
     "statsSATK": 100,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "misdreavus",
@@ -3610,7 +3809,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 85,
     "statsSATK": 85,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "unown",
@@ -3626,7 +3826,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 48,
     "statsSATK": 72,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "wobbuffet",
@@ -3643,7 +3844,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 33,
     "statsSATK": 33,
-    "statsSDEF": 58
+    "statsSDEF": 58,
+    "caught": false
   },
   {
     "name": "girafarig",
@@ -3662,7 +3864,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 85,
     "statsSATK": 90,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "pineco",
@@ -3679,7 +3882,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 15,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "forretress",
@@ -3697,7 +3901,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "dunsparce",
@@ -3715,7 +3920,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 45,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "gligar",
@@ -3734,7 +3940,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 85,
     "statsSATK": 35,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "steelix",
@@ -3753,7 +3960,8 @@ const allPokemon = [
     "statsDEF": 200,
     "statsINIT": 30,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "snubbull",
@@ -3771,7 +3979,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 30,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "granbull",
@@ -3789,7 +3998,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 45,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "qwilfish",
@@ -3808,7 +4018,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 85,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "scizor",
@@ -3827,7 +4038,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 65,
     "statsSATK": 55,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "shuckle",
@@ -3846,7 +4058,8 @@ const allPokemon = [
     "statsDEF": 230,
     "statsINIT": 5,
     "statsSATK": 10,
-    "statsSDEF": 230
+    "statsSDEF": 230,
+    "caught": false
   },
   {
     "name": "heracross",
@@ -3865,7 +4078,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 85,
     "statsSATK": 40,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "sneasel",
@@ -3884,7 +4098,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 115,
     "statsSATK": 35,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "teddiursa",
@@ -3902,7 +4117,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 40,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "ursaring",
@@ -3920,7 +4136,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 55,
     "statsSATK": 75,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "slugma",
@@ -3938,7 +4155,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 20,
     "statsSATK": 70,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "magcargo",
@@ -3957,7 +4175,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 30,
     "statsSATK": 90,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "swinub",
@@ -3976,7 +4195,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 50,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "piloswine",
@@ -3995,7 +4215,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "corsola",
@@ -4014,7 +4235,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 35,
     "statsSATK": 65,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "remoraid",
@@ -4032,7 +4254,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 65,
     "statsSATK": 65,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "octillery",
@@ -4050,7 +4273,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 45,
     "statsSATK": 105,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "delibird",
@@ -4069,7 +4293,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 75,
     "statsSATK": 65,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "mantine",
@@ -4088,7 +4313,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 70,
     "statsSATK": 80,
-    "statsSDEF": 140
+    "statsSDEF": 140,
+    "caught": false
   },
   {
     "name": "skarmory",
@@ -4107,7 +4333,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 70,
     "statsSATK": 40,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "houndour",
@@ -4126,7 +4353,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 65,
     "statsSATK": 80,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "houndoom",
@@ -4145,7 +4373,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 95,
     "statsSATK": 110,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "kingdra",
@@ -4164,7 +4393,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 85,
     "statsSATK": 95,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "phanpy",
@@ -4181,7 +4411,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 40,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "donphan",
@@ -4198,7 +4429,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "porygon2",
@@ -4216,7 +4448,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 60,
     "statsSATK": 105,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "stantler",
@@ -4234,7 +4467,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 85,
     "statsSATK": 85,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "smeargle",
@@ -4252,7 +4486,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 75,
     "statsSATK": 20,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "tyrogue",
@@ -4270,7 +4505,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 35,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "hitmontop",
@@ -4288,7 +4524,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 70,
     "statsSATK": 35,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "smoochum",
@@ -4307,7 +4544,8 @@ const allPokemon = [
     "statsDEF": 15,
     "statsINIT": 65,
     "statsSATK": 85,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "elekid",
@@ -4324,7 +4562,8 @@ const allPokemon = [
     "statsDEF": 37,
     "statsINIT": 95,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "magby",
@@ -4341,7 +4580,8 @@ const allPokemon = [
     "statsDEF": 37,
     "statsINIT": 83,
     "statsSATK": 70,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "miltank",
@@ -4359,7 +4599,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 100,
     "statsSATK": 40,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "blissey",
@@ -4377,7 +4618,8 @@ const allPokemon = [
     "statsDEF": 10,
     "statsINIT": 55,
     "statsSATK": 75,
-    "statsSDEF": 135
+    "statsSDEF": 135,
+    "caught": false
   },
   {
     "name": "raikou",
@@ -4394,7 +4636,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 115,
     "statsSATK": 115,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "entei",
@@ -4411,7 +4654,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 100,
     "statsSATK": 90,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "suicune",
@@ -4428,7 +4672,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 85,
     "statsSATK": 90,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "larvitar",
@@ -4446,7 +4691,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 41,
     "statsSATK": 45,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "pupitar",
@@ -4463,7 +4709,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 51,
     "statsSATK": 65,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "tyranitar",
@@ -4481,7 +4728,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 61,
     "statsSATK": 95,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "lugia",
@@ -4499,7 +4747,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 110,
     "statsSATK": 90,
-    "statsSDEF": 154
+    "statsSDEF": 154,
+    "caught": false
   },
   {
     "name": "ho-oh",
@@ -4517,7 +4766,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 90,
     "statsSATK": 110,
-    "statsSDEF": 154
+    "statsSDEF": 154,
+    "caught": false
   },
   {
     "name": "celebi",
@@ -4534,7 +4784,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "treecko",
@@ -4551,7 +4802,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 70,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "grovyle",
@@ -4568,7 +4820,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 95,
     "statsSATK": 85,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "sceptile",
@@ -4585,7 +4838,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 120,
     "statsSATK": 105,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "torchic",
@@ -4602,7 +4856,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 45,
     "statsSATK": 70,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "combusken",
@@ -4620,7 +4875,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 55,
     "statsSATK": 85,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "blaziken",
@@ -4638,7 +4894,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 80,
     "statsSATK": 110,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "mudkip",
@@ -4655,7 +4912,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 40,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "marshtomp",
@@ -4673,7 +4931,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "swampert",
@@ -4691,7 +4950,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 60,
     "statsSATK": 85,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "poochyena",
@@ -4709,7 +4969,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 35,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "mightyena",
@@ -4727,7 +4988,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 70,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "zigzagoon",
@@ -4745,7 +5007,8 @@ const allPokemon = [
     "statsDEF": 41,
     "statsINIT": 60,
     "statsSATK": 30,
-    "statsSDEF": 41
+    "statsSDEF": 41,
+    "caught": false
   },
   {
     "name": "linoone",
@@ -4763,7 +5026,8 @@ const allPokemon = [
     "statsDEF": 61,
     "statsINIT": 100,
     "statsSATK": 50,
-    "statsSDEF": 61
+    "statsSDEF": 61,
+    "caught": false
   },
   {
     "name": "wurmple",
@@ -4780,7 +5044,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 20,
     "statsSATK": 20,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "silcoon",
@@ -4796,7 +5061,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 15,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "beautifly",
@@ -4814,7 +5080,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 65,
     "statsSATK": 100,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "cascoon",
@@ -4830,7 +5097,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 15,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "dustox",
@@ -4848,7 +5116,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 65,
     "statsSATK": 50,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "lotad",
@@ -4867,7 +5136,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 30,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "lombre",
@@ -4886,7 +5156,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "ludicolo",
@@ -4905,7 +5176,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 70,
     "statsSATK": 90,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "seedot",
@@ -4923,7 +5195,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 30,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "nuzleaf",
@@ -4942,7 +5215,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 60,
     "statsSATK": 60,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "shiftry",
@@ -4961,7 +5235,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 80,
     "statsSATK": 90,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "taillow",
@@ -4979,7 +5254,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 85,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "swellow",
@@ -4997,7 +5273,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 125,
     "statsSATK": 75,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "wingull",
@@ -5016,7 +5293,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 85,
     "statsSATK": 55,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "pelipper",
@@ -5035,7 +5313,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 65,
     "statsSATK": 95,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "ralts",
@@ -5054,7 +5333,8 @@ const allPokemon = [
     "statsDEF": 25,
     "statsINIT": 40,
     "statsSATK": 45,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "kirlia",
@@ -5073,7 +5353,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 50,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "gardevoir",
@@ -5092,7 +5373,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 80,
     "statsSATK": 125,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "surskit",
@@ -5110,7 +5392,8 @@ const allPokemon = [
     "statsDEF": 32,
     "statsINIT": 65,
     "statsSATK": 50,
-    "statsSDEF": 52
+    "statsSDEF": 52,
+    "caught": false
   },
   {
     "name": "masquerain",
@@ -5128,7 +5411,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 80,
     "statsSATK": 100,
-    "statsSDEF": 82
+    "statsSDEF": 82,
+    "caught": false
   },
   {
     "name": "shroomish",
@@ -5146,7 +5430,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 35,
     "statsSATK": 40,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "breloom",
@@ -5165,7 +5450,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 70,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "slakoth",
@@ -5181,7 +5467,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 30,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "vigoroth",
@@ -5197,7 +5484,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 90,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "slaking",
@@ -5213,7 +5501,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 95,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "nincada",
@@ -5231,7 +5520,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 40,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "ninjask",
@@ -5249,7 +5539,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 160,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "shedinja",
@@ -5266,7 +5557,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 40,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "whismur",
@@ -5283,7 +5575,8 @@ const allPokemon = [
     "statsDEF": 23,
     "statsINIT": 28,
     "statsSATK": 51,
-    "statsSDEF": 23
+    "statsSDEF": 23,
+    "caught": false
   },
   {
     "name": "loudred",
@@ -5300,7 +5593,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 48,
     "statsSATK": 71,
-    "statsSDEF": 43
+    "statsSDEF": 43,
+    "caught": false
   },
   {
     "name": "exploud",
@@ -5317,7 +5611,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 68,
     "statsSATK": 91,
-    "statsSDEF": 73
+    "statsSDEF": 73,
+    "caught": false
   },
   {
     "name": "makuhita",
@@ -5335,7 +5630,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 25,
     "statsSATK": 20,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "hariyama",
@@ -5353,7 +5649,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 50,
     "statsSATK": 40,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "azurill",
@@ -5372,7 +5669,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 20,
     "statsSATK": 20,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "nosepass",
@@ -5390,7 +5688,8 @@ const allPokemon = [
     "statsDEF": 135,
     "statsINIT": 30,
     "statsSATK": 45,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "skitty",
@@ -5408,7 +5707,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 50,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "delcatty",
@@ -5426,7 +5726,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 90,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "sableye",
@@ -5445,7 +5746,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 50,
     "statsSATK": 65,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "mawile",
@@ -5464,7 +5766,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 50,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "aron",
@@ -5483,7 +5786,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 30,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "lairon",
@@ -5502,7 +5806,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 40,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "aggron",
@@ -5521,7 +5826,8 @@ const allPokemon = [
     "statsDEF": 180,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "meditite",
@@ -5539,7 +5845,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 60,
     "statsSATK": 40,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "medicham",
@@ -5557,7 +5864,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 80,
     "statsSATK": 60,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "electrike",
@@ -5575,7 +5883,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 65,
     "statsSATK": 65,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "manectric",
@@ -5593,7 +5902,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 105,
     "statsSATK": 105,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "plusle",
@@ -5610,7 +5920,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 95,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "minun",
@@ -5627,7 +5938,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 95,
     "statsSATK": 75,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "volbeat",
@@ -5645,7 +5957,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 85,
     "statsSATK": 47,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "illumise",
@@ -5663,7 +5976,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 85,
     "statsSATK": 73,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "roselia",
@@ -5682,7 +5996,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 65,
     "statsSATK": 100,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "gulpin",
@@ -5700,7 +6015,8 @@ const allPokemon = [
     "statsDEF": 53,
     "statsINIT": 40,
     "statsSATK": 43,
-    "statsSDEF": 53
+    "statsSDEF": 53,
+    "caught": false
   },
   {
     "name": "swalot",
@@ -5718,7 +6034,8 @@ const allPokemon = [
     "statsDEF": 83,
     "statsINIT": 55,
     "statsSATK": 73,
-    "statsSDEF": 83
+    "statsSDEF": 83,
+    "caught": false
   },
   {
     "name": "carvanha",
@@ -5736,7 +6053,8 @@ const allPokemon = [
     "statsDEF": 20,
     "statsINIT": 65,
     "statsSATK": 65,
-    "statsSDEF": 20
+    "statsSDEF": 20,
+    "caught": false
   },
   {
     "name": "sharpedo",
@@ -5754,7 +6072,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 95,
     "statsSATK": 95,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "wailmer",
@@ -5772,7 +6091,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 60,
     "statsSATK": 70,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "wailord",
@@ -5790,7 +6110,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 60,
     "statsSATK": 90,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "numel",
@@ -5809,7 +6130,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 35,
     "statsSATK": 65,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "camerupt",
@@ -5828,7 +6150,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 105,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "torkoal",
@@ -5846,7 +6169,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 20,
     "statsSATK": 85,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "spoink",
@@ -5864,7 +6188,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 60,
     "statsSATK": 70,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "grumpig",
@@ -5882,7 +6207,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 80,
     "statsSATK": 90,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "spinda",
@@ -5900,7 +6226,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 60,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "trapinch",
@@ -5918,7 +6245,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 10,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "vibrava",
@@ -5935,7 +6263,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 70,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "flygon",
@@ -5952,7 +6281,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 100,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "cacnea",
@@ -5969,7 +6299,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 35,
     "statsSATK": 85,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "cacturne",
@@ -5987,7 +6318,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 55,
     "statsSATK": 115,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "swablu",
@@ -6005,7 +6337,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 50,
     "statsSATK": 40,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "altaria",
@@ -6023,7 +6356,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 80,
     "statsSATK": 70,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "zangoose",
@@ -6040,7 +6374,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 90,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "seviper",
@@ -6057,7 +6392,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 65,
     "statsSATK": 100,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "lunatone",
@@ -6074,7 +6410,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 70,
     "statsSATK": 95,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "solrock",
@@ -6091,7 +6428,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 70,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "barboach",
@@ -6110,7 +6448,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 60,
     "statsSATK": 46,
-    "statsSDEF": 41
+    "statsSDEF": 41,
+    "caught": false
   },
   {
     "name": "whiscash",
@@ -6129,7 +6468,8 @@ const allPokemon = [
     "statsDEF": 73,
     "statsINIT": 60,
     "statsSATK": 76,
-    "statsSDEF": 71
+    "statsSDEF": 71,
+    "caught": false
   },
   {
     "name": "corphish",
@@ -6147,7 +6487,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 35,
     "statsSATK": 50,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "crawdaunt",
@@ -6166,7 +6507,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 55,
     "statsSATK": 90,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "baltoy",
@@ -6183,7 +6525,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 55,
     "statsSATK": 40,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "claydol",
@@ -6200,7 +6543,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 75,
     "statsSATK": 70,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "lileep",
@@ -6218,7 +6562,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 23,
     "statsSATK": 61,
-    "statsSDEF": 87
+    "statsSDEF": 87,
+    "caught": false
   },
   {
     "name": "cradily",
@@ -6236,7 +6581,8 @@ const allPokemon = [
     "statsDEF": 97,
     "statsINIT": 43,
     "statsSATK": 81,
-    "statsSDEF": 107
+    "statsSDEF": 107,
+    "caught": false
   },
   {
     "name": "anorith",
@@ -6254,7 +6600,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 75,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "armaldo",
@@ -6272,7 +6619,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 45,
     "statsSATK": 70,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "feebas",
@@ -6290,7 +6638,8 @@ const allPokemon = [
     "statsDEF": 20,
     "statsINIT": 80,
     "statsSATK": 10,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "milotic",
@@ -6308,7 +6657,8 @@ const allPokemon = [
     "statsDEF": 79,
     "statsINIT": 81,
     "statsSATK": 100,
-    "statsSDEF": 125
+    "statsSDEF": 125,
+    "caught": false
   },
   {
     "name": "castform",
@@ -6324,7 +6674,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 70,
     "statsSATK": 70,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "kecleon",
@@ -6341,7 +6692,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "shuppet",
@@ -6359,7 +6711,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 45,
     "statsSATK": 63,
-    "statsSDEF": 33
+    "statsSDEF": 33,
+    "caught": false
   },
   {
     "name": "banette",
@@ -6377,7 +6730,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 65,
     "statsSATK": 83,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "duskull",
@@ -6394,7 +6748,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 25,
     "statsSATK": 30,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "dusclops",
@@ -6411,7 +6766,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 25,
     "statsSATK": 60,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "tropius",
@@ -6430,7 +6786,8 @@ const allPokemon = [
     "statsDEF": 83,
     "statsINIT": 51,
     "statsSATK": 72,
-    "statsSDEF": 87
+    "statsSDEF": 87,
+    "caught": false
   },
   {
     "name": "chimecho",
@@ -6446,7 +6803,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 65,
     "statsSATK": 95,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "absol",
@@ -6464,7 +6822,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 75,
     "statsSATK": 75,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "wynaut",
@@ -6481,7 +6840,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 23,
     "statsSATK": 23,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "snorunt",
@@ -6499,7 +6859,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 50,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "glalie",
@@ -6517,7 +6878,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 80,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "spheal",
@@ -6536,7 +6898,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 25,
     "statsSATK": 55,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "sealeo",
@@ -6555,7 +6918,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 45,
     "statsSATK": 75,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "walrein",
@@ -6574,7 +6938,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 65,
     "statsSATK": 95,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "clamperl",
@@ -6591,7 +6956,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 32,
     "statsSATK": 74,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "huntail",
@@ -6608,7 +6974,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 52,
     "statsSATK": 94,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "gorebyss",
@@ -6625,7 +6992,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 52,
     "statsSATK": 114,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "relicanth",
@@ -6644,7 +7012,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 55,
     "statsSATK": 45,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "luvdisc",
@@ -6661,7 +7030,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 97,
     "statsSATK": 40,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "bagon",
@@ -6678,7 +7048,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 50,
     "statsSATK": 40,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "shelgon",
@@ -6695,7 +7066,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "salamence",
@@ -6713,7 +7085,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 100,
     "statsSATK": 110,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "beldum",
@@ -6731,7 +7104,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 30,
     "statsSATK": 35,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "metang",
@@ -6749,7 +7123,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 50,
     "statsSATK": 55,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "metagross",
@@ -6767,7 +7142,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 70,
     "statsSATK": 95,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "regirock",
@@ -6784,7 +7160,8 @@ const allPokemon = [
     "statsDEF": 200,
     "statsINIT": 50,
     "statsSATK": 50,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "regice",
@@ -6801,7 +7178,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 50,
     "statsSATK": 100,
-    "statsSDEF": 200
+    "statsSDEF": 200,
+    "caught": false
   },
   {
     "name": "registeel",
@@ -6818,7 +7196,8 @@ const allPokemon = [
     "statsDEF": 150,
     "statsINIT": 50,
     "statsSATK": 75,
-    "statsSDEF": 150
+    "statsSDEF": 150,
+    "caught": false
   },
   {
     "name": "latias",
@@ -6835,7 +7214,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 110,
     "statsSATK": 110,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "latios",
@@ -6852,7 +7232,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 110,
     "statsSATK": 130,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "kyogre",
@@ -6868,7 +7249,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 90,
     "statsSATK": 150,
-    "statsSDEF": 140
+    "statsSDEF": 140,
+    "caught": false
   },
   {
     "name": "groudon",
@@ -6884,7 +7266,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 90,
     "statsSATK": 100,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "rayquaza",
@@ -6901,7 +7284,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 95,
     "statsSATK": 150,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "jirachi",
@@ -6918,7 +7302,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "deoxys-normal",
@@ -6934,7 +7319,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 150,
     "statsSATK": 150,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "turtwig",
@@ -6951,7 +7337,8 @@ const allPokemon = [
     "statsDEF": 64,
     "statsINIT": 31,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "grotle",
@@ -6968,7 +7355,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 36,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "torterra",
@@ -6986,7 +7374,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 56,
     "statsSATK": 75,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "chimchar",
@@ -7003,7 +7392,8 @@ const allPokemon = [
     "statsDEF": 44,
     "statsINIT": 61,
     "statsSATK": 58,
-    "statsSDEF": 44
+    "statsSDEF": 44,
+    "caught": false
   },
   {
     "name": "monferno",
@@ -7021,7 +7411,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 81,
     "statsSATK": 78,
-    "statsSDEF": 52
+    "statsSDEF": 52,
+    "caught": false
   },
   {
     "name": "infernape",
@@ -7039,7 +7430,8 @@ const allPokemon = [
     "statsDEF": 71,
     "statsINIT": 108,
     "statsSATK": 104,
-    "statsSDEF": 71
+    "statsSDEF": 71,
+    "caught": false
   },
   {
     "name": "piplup",
@@ -7056,7 +7448,8 @@ const allPokemon = [
     "statsDEF": 53,
     "statsINIT": 40,
     "statsSATK": 61,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "prinplup",
@@ -7073,7 +7466,8 @@ const allPokemon = [
     "statsDEF": 68,
     "statsINIT": 50,
     "statsSATK": 81,
-    "statsSDEF": 76
+    "statsSDEF": 76,
+    "caught": false
   },
   {
     "name": "empoleon",
@@ -7091,7 +7485,8 @@ const allPokemon = [
     "statsDEF": 88,
     "statsINIT": 60,
     "statsSATK": 111,
-    "statsSDEF": 101
+    "statsSDEF": 101,
+    "caught": false
   },
   {
     "name": "starly",
@@ -7109,7 +7504,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 60,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "staravia",
@@ -7127,7 +7523,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 80,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "staraptor",
@@ -7145,7 +7542,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 100,
     "statsSATK": 50,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "bidoof",
@@ -7163,7 +7561,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 31,
     "statsSATK": 35,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "bibarel",
@@ -7182,7 +7581,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 71,
     "statsSATK": 55,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "kricketot",
@@ -7199,7 +7599,8 @@ const allPokemon = [
     "statsDEF": 41,
     "statsINIT": 25,
     "statsSATK": 25,
-    "statsSDEF": 41
+    "statsSDEF": 41,
+    "caught": false
   },
   {
     "name": "kricketune",
@@ -7216,7 +7617,8 @@ const allPokemon = [
     "statsDEF": 51,
     "statsINIT": 65,
     "statsSATK": 55,
-    "statsSDEF": 51
+    "statsSDEF": 51,
+    "caught": false
   },
   {
     "name": "shinx",
@@ -7234,7 +7636,8 @@ const allPokemon = [
     "statsDEF": 34,
     "statsINIT": 45,
     "statsSATK": 40,
-    "statsSDEF": 34
+    "statsSDEF": 34,
+    "caught": false
   },
   {
     "name": "luxio",
@@ -7252,7 +7655,8 @@ const allPokemon = [
     "statsDEF": 49,
     "statsINIT": 60,
     "statsSATK": 60,
-    "statsSDEF": 49
+    "statsSDEF": 49,
+    "caught": false
   },
   {
     "name": "luxray",
@@ -7270,7 +7674,8 @@ const allPokemon = [
     "statsDEF": 79,
     "statsINIT": 70,
     "statsSATK": 95,
-    "statsSDEF": 79
+    "statsSDEF": 79,
+    "caught": false
   },
   {
     "name": "budew",
@@ -7289,7 +7694,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 55,
     "statsSATK": 50,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "roserade",
@@ -7308,7 +7714,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 90,
     "statsSATK": 125,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "cranidos",
@@ -7325,7 +7732,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 58,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "rampardos",
@@ -7342,7 +7750,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 58,
     "statsSATK": 65,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "shieldon",
@@ -7360,7 +7769,8 @@ const allPokemon = [
     "statsDEF": 118,
     "statsINIT": 30,
     "statsSATK": 42,
-    "statsSDEF": 88
+    "statsSDEF": 88,
+    "caught": false
   },
   {
     "name": "bastiodon",
@@ -7378,7 +7788,8 @@ const allPokemon = [
     "statsDEF": 168,
     "statsINIT": 30,
     "statsSATK": 47,
-    "statsSDEF": 138
+    "statsSDEF": 138,
+    "caught": false
   },
   {
     "name": "burmy",
@@ -7395,7 +7806,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 36,
     "statsSATK": 29,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "wormadam-plant",
@@ -7413,7 +7825,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 36,
     "statsSATK": 79,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "mothim",
@@ -7431,7 +7844,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 66,
     "statsSATK": 94,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "combee",
@@ -7449,7 +7863,8 @@ const allPokemon = [
     "statsDEF": 42,
     "statsINIT": 70,
     "statsSATK": 30,
-    "statsSDEF": 42
+    "statsSDEF": 42,
+    "caught": false
   },
   {
     "name": "vespiquen",
@@ -7467,7 +7882,8 @@ const allPokemon = [
     "statsDEF": 102,
     "statsINIT": 40,
     "statsSATK": 80,
-    "statsSDEF": 102
+    "statsSDEF": 102,
+    "caught": false
   },
   {
     "name": "pachirisu",
@@ -7485,7 +7901,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 95,
     "statsSATK": 45,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "buizel",
@@ -7502,7 +7919,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 85,
     "statsSATK": 60,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "floatzel",
@@ -7519,7 +7937,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 115,
     "statsSATK": 85,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "cherubi",
@@ -7535,7 +7954,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 35,
     "statsSATK": 62,
-    "statsSDEF": 53
+    "statsSDEF": 53,
+    "caught": false
   },
   {
     "name": "cherrim",
@@ -7551,7 +7971,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 85,
     "statsSATK": 87,
-    "statsSDEF": 78
+    "statsSDEF": 78,
+    "caught": false
   },
   {
     "name": "shellos",
@@ -7569,7 +7990,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 34,
     "statsSATK": 57,
-    "statsSDEF": 62
+    "statsSDEF": 62,
+    "caught": false
   },
   {
     "name": "gastrodon",
@@ -7588,7 +8010,8 @@ const allPokemon = [
     "statsDEF": 68,
     "statsINIT": 39,
     "statsSATK": 92,
-    "statsSDEF": 82
+    "statsSDEF": 82,
+    "caught": false
   },
   {
     "name": "ambipom",
@@ -7606,7 +8029,8 @@ const allPokemon = [
     "statsDEF": 66,
     "statsINIT": 115,
     "statsSATK": 60,
-    "statsSDEF": 66
+    "statsSDEF": 66,
+    "caught": false
   },
   {
     "name": "drifloon",
@@ -7625,7 +8049,8 @@ const allPokemon = [
     "statsDEF": 34,
     "statsINIT": 70,
     "statsSATK": 60,
-    "statsSDEF": 44
+    "statsSDEF": 44,
+    "caught": false
   },
   {
     "name": "drifblim",
@@ -7644,7 +8069,8 @@ const allPokemon = [
     "statsDEF": 44,
     "statsINIT": 80,
     "statsSATK": 90,
-    "statsSDEF": 54
+    "statsSDEF": 54,
+    "caught": false
   },
   {
     "name": "buneary",
@@ -7662,7 +8088,8 @@ const allPokemon = [
     "statsDEF": 44,
     "statsINIT": 85,
     "statsSATK": 44,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "lopunny",
@@ -7680,7 +8107,8 @@ const allPokemon = [
     "statsDEF": 84,
     "statsINIT": 105,
     "statsSATK": 54,
-    "statsSDEF": 96
+    "statsSDEF": 96,
+    "caught": false
   },
   {
     "name": "mismagius",
@@ -7696,7 +8124,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 105,
     "statsSATK": 105,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "honchkrow",
@@ -7715,7 +8144,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 71,
     "statsSATK": 105,
-    "statsSDEF": 52
+    "statsSDEF": 52,
+    "caught": false
   },
   {
     "name": "glameow",
@@ -7733,7 +8163,8 @@ const allPokemon = [
     "statsDEF": 42,
     "statsINIT": 85,
     "statsSATK": 42,
-    "statsSDEF": 37
+    "statsSDEF": 37,
+    "caught": false
   },
   {
     "name": "purugly",
@@ -7751,7 +8182,8 @@ const allPokemon = [
     "statsDEF": 64,
     "statsINIT": 112,
     "statsSATK": 64,
-    "statsSDEF": 59
+    "statsSDEF": 59,
+    "caught": false
   },
   {
     "name": "chingling",
@@ -7767,7 +8199,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 45,
     "statsSATK": 65,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "stunky",
@@ -7786,7 +8219,8 @@ const allPokemon = [
     "statsDEF": 47,
     "statsINIT": 74,
     "statsSATK": 41,
-    "statsSDEF": 41
+    "statsSDEF": 41,
+    "caught": false
   },
   {
     "name": "skuntank",
@@ -7805,7 +8239,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 84,
     "statsSATK": 71,
-    "statsSDEF": 61
+    "statsSDEF": 61,
+    "caught": false
   },
   {
     "name": "bronzor",
@@ -7824,7 +8259,8 @@ const allPokemon = [
     "statsDEF": 86,
     "statsINIT": 23,
     "statsSATK": 24,
-    "statsSDEF": 86
+    "statsSDEF": 86,
+    "caught": false
   },
   {
     "name": "bronzong",
@@ -7843,7 +8279,8 @@ const allPokemon = [
     "statsDEF": 116,
     "statsINIT": 33,
     "statsSATK": 79,
-    "statsSDEF": 116
+    "statsSDEF": 116,
+    "caught": false
   },
   {
     "name": "bonsly",
@@ -7861,7 +8298,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 10,
     "statsSATK": 10,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "mime-jr",
@@ -7880,7 +8318,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 60,
     "statsSATK": 70,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "happiny",
@@ -7898,7 +8337,8 @@ const allPokemon = [
     "statsDEF": 5,
     "statsINIT": 30,
     "statsSATK": 15,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "chatot",
@@ -7917,7 +8357,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 91,
     "statsSATK": 92,
-    "statsSDEF": 42
+    "statsSDEF": 42,
+    "caught": false
   },
   {
     "name": "spiritomb",
@@ -7935,7 +8376,8 @@ const allPokemon = [
     "statsDEF": 108,
     "statsINIT": 35,
     "statsSATK": 92,
-    "statsSDEF": 108
+    "statsSDEF": 108,
+    "caught": false
   },
   {
     "name": "gible",
@@ -7953,7 +8395,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 42,
     "statsSATK": 40,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "gabite",
@@ -7971,7 +8414,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 82,
     "statsSATK": 50,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "garchomp",
@@ -7989,7 +8433,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 102,
     "statsSATK": 80,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "munchlax",
@@ -8007,7 +8452,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 5,
     "statsSATK": 40,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "riolu",
@@ -8025,7 +8471,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 60,
     "statsSATK": 35,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "lucario",
@@ -8044,7 +8491,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 90,
     "statsSATK": 115,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "hippopotas",
@@ -8061,7 +8509,8 @@ const allPokemon = [
     "statsDEF": 78,
     "statsINIT": 32,
     "statsSATK": 38,
-    "statsSDEF": 42
+    "statsSDEF": 42,
+    "caught": false
   },
   {
     "name": "hippowdon",
@@ -8078,7 +8527,8 @@ const allPokemon = [
     "statsDEF": 118,
     "statsINIT": 47,
     "statsSATK": 68,
-    "statsSDEF": 72
+    "statsSDEF": 72,
+    "caught": false
   },
   {
     "name": "skorupi",
@@ -8097,7 +8547,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 65,
     "statsSATK": 30,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "drapion",
@@ -8116,7 +8567,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 95,
     "statsSATK": 60,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "croagunk",
@@ -8135,7 +8587,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 50,
     "statsSATK": 61,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "toxicroak",
@@ -8154,7 +8607,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 85,
     "statsSATK": 86,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "carnivine",
@@ -8170,7 +8624,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 46,
     "statsSATK": 90,
-    "statsSDEF": 72
+    "statsSDEF": 72,
+    "caught": false
   },
   {
     "name": "finneon",
@@ -8188,7 +8643,8 @@ const allPokemon = [
     "statsDEF": 56,
     "statsINIT": 66,
     "statsSATK": 49,
-    "statsSDEF": 61
+    "statsSDEF": 61,
+    "caught": false
   },
   {
     "name": "lumineon",
@@ -8206,7 +8662,8 @@ const allPokemon = [
     "statsDEF": 76,
     "statsINIT": 91,
     "statsSATK": 69,
-    "statsSDEF": 86
+    "statsSDEF": 86,
+    "caught": false
   },
   {
     "name": "mantyke",
@@ -8225,7 +8682,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "snover",
@@ -8243,7 +8701,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 40,
     "statsSATK": 62,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "abomasnow",
@@ -8261,7 +8720,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 60,
     "statsSATK": 92,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "weavile",
@@ -8279,7 +8739,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 125,
     "statsSATK": 45,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "magnezone",
@@ -8298,7 +8759,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 60,
     "statsSATK": 130,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "lickilicky",
@@ -8316,7 +8778,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 50,
     "statsSATK": 80,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "rhyperior",
@@ -8335,7 +8798,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 40,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "tangrowth",
@@ -8353,7 +8817,8 @@ const allPokemon = [
     "statsDEF": 125,
     "statsINIT": 50,
     "statsSATK": 110,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "electivire",
@@ -8370,7 +8835,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 95,
     "statsSATK": 95,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "magmortar",
@@ -8387,7 +8853,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 83,
     "statsSATK": 125,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "togekiss",
@@ -8406,7 +8873,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 80,
     "statsSATK": 120,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "yanmega",
@@ -8425,7 +8893,8 @@ const allPokemon = [
     "statsDEF": 86,
     "statsINIT": 95,
     "statsSATK": 116,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "leafeon",
@@ -8442,7 +8911,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 95,
     "statsSATK": 60,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "glaceon",
@@ -8459,7 +8929,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 65,
     "statsSATK": 130,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "gliscor",
@@ -8478,7 +8949,8 @@ const allPokemon = [
     "statsDEF": 125,
     "statsINIT": 95,
     "statsSATK": 45,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "mamoswine",
@@ -8497,7 +8969,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 80,
     "statsSATK": 70,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "porygon-z",
@@ -8515,7 +8988,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 90,
     "statsSATK": 135,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "gallade",
@@ -8534,7 +9008,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 80,
     "statsSATK": 65,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "probopass",
@@ -8553,7 +9028,8 @@ const allPokemon = [
     "statsDEF": 145,
     "statsINIT": 40,
     "statsSATK": 75,
-    "statsSDEF": 150
+    "statsSDEF": 150,
+    "caught": false
   },
   {
     "name": "dusknoir",
@@ -8570,7 +9046,8 @@ const allPokemon = [
     "statsDEF": 135,
     "statsINIT": 45,
     "statsSATK": 65,
-    "statsSDEF": 135
+    "statsSDEF": 135,
+    "caught": false
   },
   {
     "name": "froslass",
@@ -8588,7 +9065,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 110,
     "statsSATK": 80,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "rotom",
@@ -8605,7 +9083,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 91,
     "statsSATK": 95,
-    "statsSDEF": 77
+    "statsSDEF": 77,
+    "caught": false
   },
   {
     "name": "uxie",
@@ -8621,7 +9100,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 95,
     "statsSATK": 75,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "mesprit",
@@ -8637,7 +9117,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 80,
     "statsSATK": 105,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "azelf",
@@ -8653,7 +9134,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 115,
     "statsSATK": 125,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "dialga",
@@ -8671,7 +9153,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 90,
     "statsSATK": 150,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "palkia",
@@ -8689,7 +9172,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 150,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "heatran",
@@ -8707,7 +9191,8 @@ const allPokemon = [
     "statsDEF": 106,
     "statsINIT": 77,
     "statsSATK": 130,
-    "statsSDEF": 106
+    "statsSDEF": 106,
+    "caught": false
   },
   {
     "name": "regigigas",
@@ -8723,7 +9208,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 100,
     "statsSATK": 80,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "giratina-altered",
@@ -8741,7 +9227,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 90,
     "statsSATK": 100,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "cresselia",
@@ -8757,7 +9244,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 85,
     "statsSATK": 75,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "phione",
@@ -8773,7 +9261,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 80,
     "statsSATK": 80,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "manaphy",
@@ -8789,7 +9278,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "darkrai",
@@ -8805,7 +9295,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 125,
     "statsSATK": 135,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "shaymin-land",
@@ -8821,7 +9312,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "arceus",
@@ -8837,7 +9329,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 120,
     "statsSATK": 120,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "victini",
@@ -8854,7 +9347,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 100,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "snivy",
@@ -8871,7 +9365,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 63,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "servine",
@@ -8888,7 +9383,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 83,
     "statsSATK": 60,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "serperior",
@@ -8905,7 +9401,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 113,
     "statsSATK": 75,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "tepig",
@@ -8922,7 +9419,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 45,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "pignite",
@@ -8940,7 +9438,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 55,
     "statsSATK": 70,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "emboar",
@@ -8958,7 +9457,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 65,
     "statsSATK": 100,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "oshawott",
@@ -8975,7 +9475,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 45,
     "statsSATK": 63,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "dewott",
@@ -8992,7 +9493,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 60,
     "statsSATK": 83,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "samurott",
@@ -9009,7 +9511,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 70,
     "statsSATK": 108,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "patrat",
@@ -9027,7 +9530,8 @@ const allPokemon = [
     "statsDEF": 39,
     "statsINIT": 42,
     "statsSATK": 35,
-    "statsSDEF": 39
+    "statsSDEF": 39,
+    "caught": false
   },
   {
     "name": "watchog",
@@ -9045,7 +9549,8 @@ const allPokemon = [
     "statsDEF": 69,
     "statsINIT": 77,
     "statsSATK": 60,
-    "statsSDEF": 69
+    "statsSDEF": 69,
+    "caught": false
   },
   {
     "name": "lillipup",
@@ -9063,7 +9568,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 55,
     "statsSATK": 25,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "herdier",
@@ -9081,7 +9587,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 60,
     "statsSATK": 35,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "stoutland",
@@ -9099,7 +9606,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 80,
     "statsSATK": 45,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "purrloin",
@@ -9117,7 +9625,8 @@ const allPokemon = [
     "statsDEF": 37,
     "statsINIT": 66,
     "statsSATK": 50,
-    "statsSDEF": 37
+    "statsSDEF": 37,
+    "caught": false
   },
   {
     "name": "liepard",
@@ -9135,7 +9644,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 106,
     "statsSATK": 88,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "pansage",
@@ -9152,7 +9662,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 64,
     "statsSATK": 53,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "simisage",
@@ -9169,7 +9680,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 101,
     "statsSATK": 98,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "pansear",
@@ -9186,7 +9698,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 64,
     "statsSATK": 53,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "simisear",
@@ -9203,7 +9716,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 101,
     "statsSATK": 98,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "panpour",
@@ -9220,7 +9734,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 64,
     "statsSATK": 53,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "simipour",
@@ -9237,7 +9752,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 101,
     "statsSATK": 98,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "munna",
@@ -9255,7 +9771,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 24,
     "statsSATK": 67,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "musharna",
@@ -9273,7 +9790,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 29,
     "statsSATK": 107,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "pidove",
@@ -9292,7 +9810,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 43,
     "statsSATK": 36,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "tranquill",
@@ -9311,7 +9830,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 65,
     "statsSATK": 50,
-    "statsSDEF": 42
+    "statsSDEF": 42,
+    "caught": false
   },
   {
     "name": "unfezant",
@@ -9330,7 +9850,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 93,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "blitzle",
@@ -9348,7 +9869,8 @@ const allPokemon = [
     "statsDEF": 32,
     "statsINIT": 76,
     "statsSATK": 50,
-    "statsSDEF": 32
+    "statsSDEF": 32,
+    "caught": false
   },
   {
     "name": "zebstrika",
@@ -9366,7 +9888,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 116,
     "statsSATK": 80,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "roggenrola",
@@ -9384,7 +9907,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 15,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "boldore",
@@ -9402,7 +9926,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 20,
     "statsSATK": 50,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "gigalith",
@@ -9420,7 +9945,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 25,
     "statsSATK": 60,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "woobat",
@@ -9439,7 +9965,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 72,
     "statsSATK": 55,
-    "statsSDEF": 43
+    "statsSDEF": 43,
+    "caught": false
   },
   {
     "name": "swoobat",
@@ -9458,7 +9985,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 114,
     "statsSATK": 77,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "drilbur",
@@ -9476,7 +10004,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 68,
     "statsSATK": 30,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "excadrill",
@@ -9495,7 +10024,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 88,
     "statsSATK": 50,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "audino",
@@ -9513,7 +10043,8 @@ const allPokemon = [
     "statsDEF": 86,
     "statsINIT": 50,
     "statsSATK": 60,
-    "statsSDEF": 86
+    "statsSDEF": 86,
+    "caught": false
   },
   {
     "name": "timburr",
@@ -9531,7 +10062,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 35,
     "statsSATK": 25,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "gurdurr",
@@ -9549,7 +10081,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 40,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "conkeldurr",
@@ -9567,7 +10100,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 45,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "tympole",
@@ -9585,7 +10119,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 64,
     "statsSATK": 50,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "palpitoad",
@@ -9604,7 +10139,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 69,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "seismitoad",
@@ -9623,7 +10159,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 74,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "throh",
@@ -9641,7 +10178,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 45,
     "statsSATK": 30,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "sawk",
@@ -9659,7 +10197,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 85,
     "statsSATK": 30,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "sewaddle",
@@ -9678,7 +10217,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 42,
     "statsSATK": 40,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "swadloon",
@@ -9697,7 +10237,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 42,
     "statsSATK": 50,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "leavanny",
@@ -9716,7 +10257,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 92,
     "statsSATK": 70,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "venipede",
@@ -9735,7 +10277,8 @@ const allPokemon = [
     "statsDEF": 59,
     "statsINIT": 57,
     "statsSATK": 30,
-    "statsSDEF": 39
+    "statsSDEF": 39,
+    "caught": false
   },
   {
     "name": "whirlipede",
@@ -9754,7 +10297,8 @@ const allPokemon = [
     "statsDEF": 99,
     "statsINIT": 47,
     "statsSATK": 40,
-    "statsSDEF": 79
+    "statsSDEF": 79,
+    "caught": false
   },
   {
     "name": "scolipede",
@@ -9773,7 +10317,8 @@ const allPokemon = [
     "statsDEF": 89,
     "statsINIT": 112,
     "statsSATK": 55,
-    "statsSDEF": 69
+    "statsSDEF": 69,
+    "caught": false
   },
   {
     "name": "cottonee",
@@ -9792,7 +10337,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 66,
     "statsSATK": 37,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "whimsicott",
@@ -9811,7 +10357,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 116,
     "statsSATK": 77,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "petilil",
@@ -9829,7 +10376,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 30,
     "statsSATK": 70,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "lilligant",
@@ -9847,7 +10395,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 90,
     "statsSATK": 110,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "basculin-red-striped",
@@ -9865,7 +10414,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 98,
     "statsSATK": 80,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "sandile",
@@ -9884,7 +10434,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 65,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "krokorok",
@@ -9903,7 +10454,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 74,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "krookodile",
@@ -9922,7 +10474,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 92,
     "statsSATK": 65,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "darumaka",
@@ -9939,7 +10492,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 50,
     "statsSATK": 15,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "darmanitan-standard",
@@ -9956,7 +10510,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 95,
     "statsSATK": 30,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "maractus",
@@ -9974,7 +10529,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 60,
     "statsSATK": 106,
-    "statsSDEF": 67
+    "statsSDEF": 67,
+    "caught": false
   },
   {
     "name": "dwebble",
@@ -9993,7 +10549,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 55,
     "statsSATK": 35,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "crustle",
@@ -10012,7 +10569,8 @@ const allPokemon = [
     "statsDEF": 125,
     "statsINIT": 45,
     "statsSATK": 65,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "scraggy",
@@ -10031,7 +10589,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 48,
     "statsSATK": 35,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "scrafty",
@@ -10050,7 +10609,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 58,
     "statsSATK": 45,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "sigilyph",
@@ -10069,7 +10629,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 97,
     "statsSATK": 103,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "yamask",
@@ -10085,7 +10646,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 30,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "cofagrigus",
@@ -10101,7 +10663,8 @@ const allPokemon = [
     "statsDEF": 145,
     "statsINIT": 30,
     "statsSATK": 95,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "tirtouga",
@@ -10120,7 +10683,8 @@ const allPokemon = [
     "statsDEF": 103,
     "statsINIT": 22,
     "statsSATK": 53,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "carracosta",
@@ -10139,7 +10703,8 @@ const allPokemon = [
     "statsDEF": 133,
     "statsINIT": 32,
     "statsSATK": 83,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "archen",
@@ -10156,7 +10721,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 70,
     "statsSATK": 74,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "archeops",
@@ -10173,7 +10739,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 110,
     "statsSATK": 112,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "trubbish",
@@ -10191,7 +10758,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 65,
     "statsSATK": 40,
-    "statsSDEF": 62
+    "statsSDEF": 62,
+    "caught": false
   },
   {
     "name": "garbodor",
@@ -10209,7 +10777,8 @@ const allPokemon = [
     "statsDEF": 82,
     "statsINIT": 75,
     "statsSATK": 60,
-    "statsSDEF": 82
+    "statsSDEF": 82,
+    "caught": false
   },
   {
     "name": "zorua",
@@ -10225,7 +10794,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 65,
     "statsSATK": 80,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "zoroark",
@@ -10241,7 +10811,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 105,
     "statsSATK": 120,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "minccino",
@@ -10259,7 +10830,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 75,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "cinccino",
@@ -10277,7 +10849,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 115,
     "statsSATK": 65,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "gothita",
@@ -10295,7 +10868,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 45,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "gothorita",
@@ -10313,7 +10887,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 55,
     "statsSATK": 75,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "gothitelle",
@@ -10331,7 +10906,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 65,
     "statsSATK": 95,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "solosis",
@@ -10349,7 +10925,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 20,
     "statsSATK": 105,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "duosion",
@@ -10367,7 +10944,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 30,
     "statsSATK": 125,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "reuniclus",
@@ -10385,7 +10963,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 30,
     "statsSATK": 125,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "ducklett",
@@ -10404,7 +10983,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 55,
     "statsSATK": 44,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "swanna",
@@ -10423,7 +11003,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 98,
     "statsSATK": 87,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "vanillite",
@@ -10441,7 +11022,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 44,
     "statsSATK": 65,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "vanillish",
@@ -10459,7 +11041,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 59,
     "statsSATK": 80,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "vanilluxe",
@@ -10477,7 +11060,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 79,
     "statsSATK": 110,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "deerling",
@@ -10496,7 +11080,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 75,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "sawsbuck",
@@ -10515,7 +11100,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 95,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "emolga",
@@ -10533,7 +11119,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 103,
     "statsSATK": 75,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "karrablast",
@@ -10551,7 +11138,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 60,
     "statsSATK": 40,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "escavalier",
@@ -10570,7 +11158,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 20,
     "statsSATK": 60,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "foongus",
@@ -10588,7 +11177,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 15,
     "statsSATK": 55,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "amoonguss",
@@ -10606,7 +11196,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 30,
     "statsSATK": 85,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "frillish",
@@ -10625,7 +11216,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 40,
     "statsSATK": 65,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "jellicent",
@@ -10644,7 +11236,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 60,
     "statsSATK": 85,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "alomomola",
@@ -10662,7 +11255,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 65,
     "statsSATK": 40,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "joltik",
@@ -10681,7 +11275,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 65,
     "statsSATK": 57,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "galvantula",
@@ -10700,7 +11295,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 108,
     "statsSATK": 97,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "ferroseed",
@@ -10717,7 +11313,8 @@ const allPokemon = [
     "statsDEF": 91,
     "statsINIT": 10,
     "statsSATK": 24,
-    "statsSDEF": 86
+    "statsSDEF": 86,
+    "caught": false
   },
   {
     "name": "ferrothorn",
@@ -10735,7 +11332,8 @@ const allPokemon = [
     "statsDEF": 131,
     "statsINIT": 20,
     "statsSATK": 54,
-    "statsSDEF": 116
+    "statsSDEF": 116,
+    "caught": false
   },
   {
     "name": "klink",
@@ -10753,7 +11351,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 30,
     "statsSATK": 45,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "klang",
@@ -10771,7 +11370,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 50,
     "statsSATK": 70,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "klinklang",
@@ -10789,7 +11389,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 90,
     "statsSATK": 70,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "tynamo",
@@ -10805,7 +11406,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 60,
     "statsSATK": 45,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "eelektrik",
@@ -10821,7 +11423,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 40,
     "statsSATK": 75,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "eelektross",
@@ -10837,7 +11440,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 50,
     "statsSATK": 105,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "elgyem",
@@ -10855,7 +11459,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 30,
     "statsSATK": 85,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "beheeyem",
@@ -10873,7 +11478,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 40,
     "statsSATK": 125,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "litwick",
@@ -10892,7 +11498,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 20,
     "statsSATK": 65,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "lampent",
@@ -10911,7 +11518,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 55,
     "statsSATK": 95,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "chandelure",
@@ -10930,7 +11538,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 80,
     "statsSATK": 145,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "axew",
@@ -10948,7 +11557,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 57,
     "statsSATK": 30,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "fraxure",
@@ -10966,7 +11576,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 67,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "haxorus",
@@ -10984,7 +11595,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 97,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "cubchoo",
@@ -11002,7 +11614,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "beartic",
@@ -11020,7 +11633,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 50,
     "statsSATK": 70,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "cryogonal",
@@ -11036,7 +11650,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 105,
     "statsSATK": 95,
-    "statsSDEF": 135
+    "statsSDEF": 135,
+    "caught": false
   },
   {
     "name": "shelmet",
@@ -11054,7 +11669,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 25,
     "statsSATK": 40,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "accelgor",
@@ -11072,7 +11688,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 145,
     "statsSATK": 100,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "stunfisk",
@@ -11091,7 +11708,8 @@ const allPokemon = [
     "statsDEF": 84,
     "statsINIT": 32,
     "statsSATK": 81,
-    "statsSDEF": 99
+    "statsSDEF": 99,
+    "caught": false
   },
   {
     "name": "mienfoo",
@@ -11109,7 +11727,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 65,
     "statsSATK": 55,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "mienshao",
@@ -11127,7 +11746,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 105,
     "statsSATK": 95,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "druddigon",
@@ -11145,7 +11765,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 48,
     "statsSATK": 60,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "golett",
@@ -11164,7 +11785,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 35,
     "statsSATK": 35,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "golurk",
@@ -11183,7 +11805,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 55,
     "statsSATK": 55,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "pawniard",
@@ -11202,7 +11825,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 60,
     "statsSATK": 40,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "bisharp",
@@ -11221,7 +11845,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 70,
     "statsSATK": 60,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "bouffalant",
@@ -11239,7 +11864,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 55,
     "statsSATK": 40,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "rufflet",
@@ -11258,7 +11884,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 60,
     "statsSATK": 37,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "braviary",
@@ -11277,7 +11904,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 80,
     "statsSATK": 57,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "vullaby",
@@ -11296,7 +11924,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 60,
     "statsSATK": 45,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "mandibuzz",
@@ -11315,7 +11944,8 @@ const allPokemon = [
     "statsDEF": 105,
     "statsINIT": 80,
     "statsSATK": 55,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "heatmor",
@@ -11333,7 +11963,8 @@ const allPokemon = [
     "statsDEF": 66,
     "statsINIT": 65,
     "statsSATK": 105,
-    "statsSDEF": 66
+    "statsSDEF": 66,
+    "caught": false
   },
   {
     "name": "durant",
@@ -11352,7 +11983,8 @@ const allPokemon = [
     "statsDEF": 112,
     "statsINIT": 109,
     "statsSATK": 48,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "deino",
@@ -11369,7 +12001,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 38,
     "statsSATK": 45,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "zweilous",
@@ -11386,7 +12019,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 58,
     "statsSATK": 65,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "hydreigon",
@@ -11403,7 +12037,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 98,
     "statsSATK": 125,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "larvesta",
@@ -11421,7 +12056,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 60,
     "statsSATK": 50,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "volcarona",
@@ -11439,7 +12075,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 100,
     "statsSATK": 135,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "cobalion",
@@ -11456,7 +12093,8 @@ const allPokemon = [
     "statsDEF": 129,
     "statsINIT": 108,
     "statsSATK": 90,
-    "statsSDEF": 72
+    "statsSDEF": 72,
+    "caught": false
   },
   {
     "name": "terrakion",
@@ -11473,7 +12111,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 108,
     "statsSATK": 72,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "virizion",
@@ -11490,7 +12129,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 108,
     "statsSATK": 90,
-    "statsSDEF": 129
+    "statsSDEF": 129,
+    "caught": false
   },
   {
     "name": "tornadus-incarnate",
@@ -11507,7 +12147,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 111,
     "statsSATK": 125,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "thundurus-incarnate",
@@ -11525,7 +12166,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 111,
     "statsSATK": 125,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "reshiram",
@@ -11542,7 +12184,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 90,
     "statsSATK": 150,
-    "statsSDEF": 120
+    "statsSDEF": 120,
+    "caught": false
   },
   {
     "name": "zekrom",
@@ -11559,7 +12202,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 90,
     "statsSATK": 120,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "landorus-incarnate",
@@ -11577,7 +12221,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 101,
     "statsSATK": 115,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "kyurem",
@@ -11594,7 +12239,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 95,
     "statsSATK": 130,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "keldeo-ordinary",
@@ -11611,7 +12257,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 108,
     "statsSATK": 129,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "meloetta-aria",
@@ -11628,7 +12275,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 90,
     "statsSATK": 128,
-    "statsSDEF": 128
+    "statsSDEF": 128,
+    "caught": false
   },
   {
     "name": "genesect",
@@ -11645,7 +12293,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 99,
     "statsSATK": 120,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "chespin",
@@ -11662,7 +12311,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 38,
     "statsSATK": 48,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "quilladin",
@@ -11679,7 +12329,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 57,
     "statsSATK": 56,
-    "statsSDEF": 58
+    "statsSDEF": 58,
+    "caught": false
   },
   {
     "name": "chesnaught",
@@ -11697,7 +12348,8 @@ const allPokemon = [
     "statsDEF": 122,
     "statsINIT": 64,
     "statsSATK": 74,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "fennekin",
@@ -11714,7 +12366,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 60,
     "statsSATK": 62,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "braixen",
@@ -11731,7 +12384,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 73,
     "statsSATK": 90,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "delphox",
@@ -11749,7 +12403,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 104,
     "statsSATK": 114,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "froakie",
@@ -11766,7 +12421,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 71,
     "statsSATK": 62,
-    "statsSDEF": 44
+    "statsSDEF": 44,
+    "caught": false
   },
   {
     "name": "frogadier",
@@ -11783,7 +12439,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 97,
     "statsSATK": 83,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "greninja",
@@ -11801,7 +12458,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 122,
     "statsSATK": 103,
-    "statsSDEF": 71
+    "statsSDEF": 71,
+    "caught": false
   },
   {
     "name": "bunnelby",
@@ -11819,7 +12477,8 @@ const allPokemon = [
     "statsDEF": 38,
     "statsINIT": 57,
     "statsSATK": 32,
-    "statsSDEF": 36
+    "statsSDEF": 36,
+    "caught": false
   },
   {
     "name": "diggersby",
@@ -11838,7 +12497,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 78,
     "statsSATK": 50,
-    "statsSDEF": 77
+    "statsSDEF": 77,
+    "caught": false
   },
   {
     "name": "fletchling",
@@ -11856,7 +12516,8 @@ const allPokemon = [
     "statsDEF": 43,
     "statsINIT": 62,
     "statsSATK": 40,
-    "statsSDEF": 38
+    "statsSDEF": 38,
+    "caught": false
   },
   {
     "name": "fletchinder",
@@ -11874,7 +12535,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 84,
     "statsSATK": 56,
-    "statsSDEF": 52
+    "statsSDEF": 52,
+    "caught": false
   },
   {
     "name": "talonflame",
@@ -11892,7 +12554,8 @@ const allPokemon = [
     "statsDEF": 71,
     "statsINIT": 126,
     "statsSATK": 74,
-    "statsSDEF": 69
+    "statsSDEF": 69,
+    "caught": false
   },
   {
     "name": "scatterbug",
@@ -11910,7 +12573,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 35,
     "statsSATK": 27,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "spewpa",
@@ -11927,7 +12591,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 29,
     "statsSATK": 27,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "vivillon",
@@ -11946,7 +12611,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 89,
     "statsSATK": 90,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "litleo",
@@ -11965,7 +12631,8 @@ const allPokemon = [
     "statsDEF": 58,
     "statsINIT": 72,
     "statsSATK": 73,
-    "statsSDEF": 54
+    "statsSDEF": 54,
+    "caught": false
   },
   {
     "name": "pyroar",
@@ -11984,7 +12651,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 106,
     "statsSATK": 109,
-    "statsSDEF": 66
+    "statsSDEF": 66,
+    "caught": false
   },
   {
     "name": "flabebe",
@@ -12001,7 +12669,8 @@ const allPokemon = [
     "statsDEF": 39,
     "statsINIT": 42,
     "statsSATK": 61,
-    "statsSDEF": 79
+    "statsSDEF": 79,
+    "caught": false
   },
   {
     "name": "floette",
@@ -12018,7 +12687,8 @@ const allPokemon = [
     "statsDEF": 47,
     "statsINIT": 52,
     "statsSATK": 75,
-    "statsSDEF": 98
+    "statsSDEF": 98,
+    "caught": false
   },
   {
     "name": "florges",
@@ -12035,7 +12705,8 @@ const allPokemon = [
     "statsDEF": 68,
     "statsINIT": 75,
     "statsSATK": 112,
-    "statsSDEF": 154
+    "statsSDEF": 154,
+    "caught": false
   },
   {
     "name": "skiddo",
@@ -12052,7 +12723,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 52,
     "statsSATK": 62,
-    "statsSDEF": 57
+    "statsSDEF": 57,
+    "caught": false
   },
   {
     "name": "gogoat",
@@ -12069,7 +12741,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 68,
     "statsSATK": 97,
-    "statsSDEF": 81
+    "statsSDEF": 81,
+    "caught": false
   },
   {
     "name": "pancham",
@@ -12087,7 +12760,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 43,
     "statsSATK": 46,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "pangoro",
@@ -12106,7 +12780,8 @@ const allPokemon = [
     "statsDEF": 78,
     "statsINIT": 58,
     "statsSATK": 69,
-    "statsSDEF": 71
+    "statsSDEF": 71,
+    "caught": false
   },
   {
     "name": "furfrou",
@@ -12122,7 +12797,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 102,
     "statsSATK": 65,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "espurr",
@@ -12140,7 +12816,8 @@ const allPokemon = [
     "statsDEF": 54,
     "statsINIT": 68,
     "statsSATK": 63,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "meowstic-male",
@@ -12158,7 +12835,8 @@ const allPokemon = [
     "statsDEF": 76,
     "statsINIT": 104,
     "statsSATK": 83,
-    "statsSDEF": 81
+    "statsSDEF": 81,
+    "caught": false
   },
   {
     "name": "honedge",
@@ -12175,7 +12853,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 28,
     "statsSATK": 35,
-    "statsSDEF": 37
+    "statsSDEF": 37,
+    "caught": false
   },
   {
     "name": "doublade",
@@ -12192,7 +12871,8 @@ const allPokemon = [
     "statsDEF": 150,
     "statsINIT": 35,
     "statsSATK": 45,
-    "statsSDEF": 49
+    "statsSDEF": 49,
+    "caught": false
   },
   {
     "name": "aegislash-shield",
@@ -12209,7 +12889,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 60,
     "statsSATK": 50,
-    "statsSDEF": 140
+    "statsSDEF": 140,
+    "caught": false
   },
   {
     "name": "spritzee",
@@ -12226,7 +12907,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 23,
     "statsSATK": 63,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "aromatisse",
@@ -12243,7 +12925,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 29,
     "statsSATK": 99,
-    "statsSDEF": 89
+    "statsSDEF": 89,
+    "caught": false
   },
   {
     "name": "swirlix",
@@ -12260,7 +12943,8 @@ const allPokemon = [
     "statsDEF": 66,
     "statsINIT": 49,
     "statsSATK": 59,
-    "statsSDEF": 57
+    "statsSDEF": 57,
+    "caught": false
   },
   {
     "name": "slurpuff",
@@ -12277,7 +12961,8 @@ const allPokemon = [
     "statsDEF": 86,
     "statsINIT": 72,
     "statsSATK": 85,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "inkay",
@@ -12296,7 +12981,8 @@ const allPokemon = [
     "statsDEF": 53,
     "statsINIT": 45,
     "statsSATK": 37,
-    "statsSDEF": 46
+    "statsSDEF": 46,
+    "caught": false
   },
   {
     "name": "malamar",
@@ -12315,7 +13001,8 @@ const allPokemon = [
     "statsDEF": 88,
     "statsINIT": 73,
     "statsSATK": 68,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "binacle",
@@ -12334,7 +13021,8 @@ const allPokemon = [
     "statsDEF": 67,
     "statsINIT": 50,
     "statsSATK": 39,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "barbaracle",
@@ -12353,7 +13041,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 68,
     "statsSATK": 54,
-    "statsSDEF": 86
+    "statsSDEF": 86,
+    "caught": false
   },
   {
     "name": "skrelp",
@@ -12372,7 +13061,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 30,
     "statsSATK": 60,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "dragalge",
@@ -12391,7 +13081,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 44,
     "statsSATK": 97,
-    "statsSDEF": 123
+    "statsSDEF": 123,
+    "caught": false
   },
   {
     "name": "clauncher",
@@ -12407,7 +13098,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 44,
     "statsSATK": 58,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "clawitzer",
@@ -12423,7 +13115,8 @@ const allPokemon = [
     "statsDEF": 88,
     "statsINIT": 59,
     "statsSATK": 120,
-    "statsSDEF": 89
+    "statsSDEF": 89,
+    "caught": false
   },
   {
     "name": "helioptile",
@@ -12442,7 +13135,8 @@ const allPokemon = [
     "statsDEF": 33,
     "statsINIT": 70,
     "statsSATK": 61,
-    "statsSDEF": 43
+    "statsSDEF": 43,
+    "caught": false
   },
   {
     "name": "heliolisk",
@@ -12461,7 +13155,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 109,
     "statsSATK": 109,
-    "statsSDEF": 94
+    "statsSDEF": 94,
+    "caught": false
   },
   {
     "name": "tyrunt",
@@ -12479,7 +13174,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 48,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "tyrantrum",
@@ -12497,7 +13193,8 @@ const allPokemon = [
     "statsDEF": 119,
     "statsINIT": 71,
     "statsSATK": 69,
-    "statsSDEF": 59
+    "statsSDEF": 59,
+    "caught": false
   },
   {
     "name": "amaura",
@@ -12515,7 +13212,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 46,
     "statsSATK": 67,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "aurorus",
@@ -12533,7 +13231,8 @@ const allPokemon = [
     "statsDEF": 72,
     "statsINIT": 58,
     "statsSATK": 99,
-    "statsSDEF": 92
+    "statsSDEF": 92,
+    "caught": false
   },
   {
     "name": "sylveon",
@@ -12550,7 +13249,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 60,
     "statsSATK": 110,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "hawlucha",
@@ -12569,7 +13269,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 118,
     "statsSATK": 74,
-    "statsSDEF": 63
+    "statsSDEF": 63,
+    "caught": false
   },
   {
     "name": "dedenne",
@@ -12588,7 +13289,8 @@ const allPokemon = [
     "statsDEF": 57,
     "statsINIT": 101,
     "statsSATK": 81,
-    "statsSDEF": 67
+    "statsSDEF": 67,
+    "caught": false
   },
   {
     "name": "carbink",
@@ -12606,7 +13308,8 @@ const allPokemon = [
     "statsDEF": 150,
     "statsINIT": 50,
     "statsSATK": 50,
-    "statsSDEF": 150
+    "statsSDEF": 150,
+    "caught": false
   },
   {
     "name": "goomy",
@@ -12624,7 +13327,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 40,
     "statsSATK": 55,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "sliggoo",
@@ -12642,7 +13346,8 @@ const allPokemon = [
     "statsDEF": 53,
     "statsINIT": 60,
     "statsSATK": 83,
-    "statsSDEF": 113
+    "statsSDEF": 113,
+    "caught": false
   },
   {
     "name": "goodra",
@@ -12660,7 +13365,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 80,
     "statsSATK": 110,
-    "statsSDEF": 150
+    "statsSDEF": 150,
+    "caught": false
   },
   {
     "name": "klefki",
@@ -12678,7 +13384,8 @@ const allPokemon = [
     "statsDEF": 91,
     "statsINIT": 75,
     "statsSATK": 80,
-    "statsSDEF": 87
+    "statsSDEF": 87,
+    "caught": false
   },
   {
     "name": "phantump",
@@ -12697,7 +13404,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 38,
     "statsSATK": 50,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "trevenant",
@@ -12716,7 +13424,8 @@ const allPokemon = [
     "statsDEF": 76,
     "statsINIT": 56,
     "statsSATK": 65,
-    "statsSDEF": 82
+    "statsSDEF": 82,
+    "caught": false
   },
   {
     "name": "pumpkaboo-average",
@@ -12735,7 +13444,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 51,
     "statsSATK": 44,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "gourgeist-average",
@@ -12754,7 +13464,8 @@ const allPokemon = [
     "statsDEF": 122,
     "statsINIT": 84,
     "statsSATK": 58,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "bergmite",
@@ -12772,7 +13483,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 28,
     "statsSATK": 32,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "avalugg",
@@ -12790,7 +13502,8 @@ const allPokemon = [
     "statsDEF": 184,
     "statsINIT": 28,
     "statsSATK": 44,
-    "statsSDEF": 46
+    "statsSDEF": 46,
+    "caught": false
   },
   {
     "name": "noibat",
@@ -12809,7 +13522,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 55,
     "statsSATK": 45,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "noivern",
@@ -12828,7 +13542,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 123,
     "statsSATK": 97,
-    "statsSDEF": 80
+    "statsSDEF": 80,
+    "caught": false
   },
   {
     "name": "xerneas",
@@ -12844,7 +13559,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 99,
     "statsSATK": 131,
-    "statsSDEF": 98
+    "statsSDEF": 98,
+    "caught": false
   },
   {
     "name": "yveltal",
@@ -12861,7 +13577,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 99,
     "statsSATK": 131,
-    "statsSDEF": 98
+    "statsSDEF": 98,
+    "caught": false
   },
   {
     "name": "zygarde-50",
@@ -12878,7 +13595,8 @@ const allPokemon = [
     "statsDEF": 121,
     "statsINIT": 95,
     "statsSATK": 81,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "diancie",
@@ -12895,7 +13613,8 @@ const allPokemon = [
     "statsDEF": 150,
     "statsINIT": 50,
     "statsSATK": 100,
-    "statsSDEF": 150
+    "statsSDEF": 150,
+    "caught": false
   },
   {
     "name": "hoopa",
@@ -12912,7 +13631,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 70,
     "statsSATK": 150,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "volcanion",
@@ -12929,7 +13649,8 @@ const allPokemon = [
     "statsDEF": 120,
     "statsINIT": 70,
     "statsSATK": 130,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "rowlet",
@@ -12947,7 +13668,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 42,
     "statsSATK": 50,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "dartrix",
@@ -12965,7 +13687,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 52,
     "statsSATK": 70,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "decidueye",
@@ -12983,7 +13706,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 70,
     "statsSATK": 100,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "litten",
@@ -13000,7 +13724,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 70,
     "statsSATK": 60,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "torracat",
@@ -13017,7 +13742,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 90,
     "statsSATK": 80,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "incineroar",
@@ -13035,7 +13761,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 60,
     "statsSATK": 80,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "popplio",
@@ -13052,7 +13779,8 @@ const allPokemon = [
     "statsDEF": 54,
     "statsINIT": 40,
     "statsSATK": 66,
-    "statsSDEF": 56
+    "statsSDEF": 56,
+    "caught": false
   },
   {
     "name": "brionne",
@@ -13069,7 +13797,8 @@ const allPokemon = [
     "statsDEF": 69,
     "statsINIT": 50,
     "statsSATK": 91,
-    "statsSDEF": 81
+    "statsSDEF": 81,
+    "caught": false
   },
   {
     "name": "primarina",
@@ -13087,7 +13816,8 @@ const allPokemon = [
     "statsDEF": 74,
     "statsINIT": 60,
     "statsSATK": 126,
-    "statsSDEF": 116
+    "statsSDEF": 116,
+    "caught": false
   },
   {
     "name": "pikipek",
@@ -13106,7 +13836,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 65,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "trumbeak",
@@ -13125,7 +13856,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 75,
     "statsSATK": 40,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "toucannon",
@@ -13144,7 +13876,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 60,
     "statsSATK": 75,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "yungoos",
@@ -13162,7 +13895,8 @@ const allPokemon = [
     "statsDEF": 30,
     "statsINIT": 45,
     "statsSATK": 30,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "gumshoos",
@@ -13180,7 +13914,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 45,
     "statsSATK": 55,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "grubbin",
@@ -13196,7 +13931,8 @@ const allPokemon = [
     "statsDEF": 45,
     "statsINIT": 46,
     "statsSATK": 55,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "charjabug",
@@ -13213,7 +13949,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 36,
     "statsSATK": 55,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "vikavolt",
@@ -13230,7 +13967,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 43,
     "statsSATK": 145,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "crabrawler",
@@ -13248,7 +13986,8 @@ const allPokemon = [
     "statsDEF": 57,
     "statsINIT": 63,
     "statsSATK": 42,
-    "statsSDEF": 47
+    "statsSDEF": 47,
+    "caught": false
   },
   {
     "name": "crabominable",
@@ -13267,7 +14006,8 @@ const allPokemon = [
     "statsDEF": 77,
     "statsINIT": 43,
     "statsSATK": 62,
-    "statsSDEF": 67
+    "statsSDEF": 67,
+    "caught": false
   },
   {
     "name": "oricorio-baile",
@@ -13284,7 +14024,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 93,
     "statsSATK": 98,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "cutiefly",
@@ -13303,7 +14044,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 84,
     "statsSATK": 55,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "ribombee",
@@ -13322,7 +14064,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 124,
     "statsSATK": 95,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "rockruff",
@@ -13340,7 +14083,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 60,
     "statsSATK": 30,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "lycanroc-midday",
@@ -13358,7 +14102,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 112,
     "statsSATK": 55,
-    "statsSDEF": 65
+    "statsSDEF": 65,
+    "caught": false
   },
   {
     "name": "wishiwashi-solo",
@@ -13374,7 +14119,8 @@ const allPokemon = [
     "statsDEF": 20,
     "statsINIT": 40,
     "statsSATK": 25,
-    "statsSDEF": 25
+    "statsSDEF": 25,
+    "caught": false
   },
   {
     "name": "mareanie",
@@ -13393,7 +14139,8 @@ const allPokemon = [
     "statsDEF": 62,
     "statsINIT": 45,
     "statsSATK": 43,
-    "statsSDEF": 52
+    "statsSDEF": 52,
+    "caught": false
   },
   {
     "name": "toxapex",
@@ -13412,7 +14159,8 @@ const allPokemon = [
     "statsDEF": 152,
     "statsINIT": 35,
     "statsSATK": 53,
-    "statsSDEF": 142
+    "statsSDEF": 142,
+    "caught": false
   },
   {
     "name": "mudbray",
@@ -13430,7 +14178,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 45,
     "statsSATK": 45,
-    "statsSDEF": 55
+    "statsSDEF": 55,
+    "caught": false
   },
   {
     "name": "mudsdale",
@@ -13448,7 +14197,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 35,
     "statsSATK": 55,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "dewpider",
@@ -13466,7 +14216,8 @@ const allPokemon = [
     "statsDEF": 52,
     "statsINIT": 27,
     "statsSATK": 40,
-    "statsSDEF": 72
+    "statsSDEF": 72,
+    "caught": false
   },
   {
     "name": "araquanid",
@@ -13484,7 +14235,8 @@ const allPokemon = [
     "statsDEF": 92,
     "statsINIT": 42,
     "statsSATK": 50,
-    "statsSDEF": 132
+    "statsSDEF": 132,
+    "caught": false
   },
   {
     "name": "fomantis",
@@ -13501,7 +14253,8 @@ const allPokemon = [
     "statsDEF": 35,
     "statsINIT": 35,
     "statsSATK": 50,
-    "statsSDEF": 35
+    "statsSDEF": 35,
+    "caught": false
   },
   {
     "name": "lurantis",
@@ -13518,7 +14271,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 45,
     "statsSATK": 80,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "morelull",
@@ -13537,7 +14291,8 @@ const allPokemon = [
     "statsDEF": 55,
     "statsINIT": 15,
     "statsSATK": 65,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "shiinotic",
@@ -13556,7 +14311,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 30,
     "statsSATK": 90,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "salandit",
@@ -13574,7 +14330,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 77,
     "statsSATK": 71,
-    "statsSDEF": 40
+    "statsSDEF": 40,
+    "caught": false
   },
   {
     "name": "salazzle",
@@ -13592,7 +14349,8 @@ const allPokemon = [
     "statsDEF": 60,
     "statsINIT": 117,
     "statsSATK": 111,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "stufful",
@@ -13611,7 +14369,8 @@ const allPokemon = [
     "statsDEF": 50,
     "statsINIT": 50,
     "statsSATK": 45,
-    "statsSDEF": 50
+    "statsSDEF": 50,
+    "caught": false
   },
   {
     "name": "bewear",
@@ -13630,7 +14389,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 60,
     "statsSATK": 55,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "bounsweet",
@@ -13648,7 +14408,8 @@ const allPokemon = [
     "statsDEF": 38,
     "statsINIT": 32,
     "statsSATK": 30,
-    "statsSDEF": 38
+    "statsSDEF": 38,
+    "caught": false
   },
   {
     "name": "steenee",
@@ -13666,7 +14427,8 @@ const allPokemon = [
     "statsDEF": 48,
     "statsINIT": 62,
     "statsSATK": 40,
-    "statsSDEF": 48
+    "statsSDEF": 48,
+    "caught": false
   },
   {
     "name": "tsareena",
@@ -13684,7 +14446,8 @@ const allPokemon = [
     "statsDEF": 98,
     "statsINIT": 72,
     "statsSATK": 50,
-    "statsSDEF": 98
+    "statsSDEF": 98,
+    "caught": false
   },
   {
     "name": "comfey",
@@ -13702,7 +14465,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 100,
     "statsSATK": 82,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "oranguru",
@@ -13721,7 +14485,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 60,
     "statsSATK": 90,
-    "statsSDEF": 110
+    "statsSDEF": 110,
+    "caught": false
   },
   {
     "name": "passimian",
@@ -13738,7 +14503,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 80,
     "statsSATK": 40,
-    "statsSDEF": 60
+    "statsSDEF": 60,
+    "caught": false
   },
   {
     "name": "wimpod",
@@ -13755,7 +14521,8 @@ const allPokemon = [
     "statsDEF": 40,
     "statsINIT": 80,
     "statsSATK": 20,
-    "statsSDEF": 30
+    "statsSDEF": 30,
+    "caught": false
   },
   {
     "name": "golisopod",
@@ -13772,7 +14539,8 @@ const allPokemon = [
     "statsDEF": 140,
     "statsINIT": 40,
     "statsSATK": 60,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "sandygast",
@@ -13790,7 +14558,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 15,
     "statsSATK": 70,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "palossand",
@@ -13808,7 +14577,8 @@ const allPokemon = [
     "statsDEF": 110,
     "statsINIT": 35,
     "statsSATK": 100,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "pyukumuku",
@@ -13825,7 +14595,8 @@ const allPokemon = [
     "statsDEF": 130,
     "statsINIT": 5,
     "statsSATK": 30,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "type-null",
@@ -13841,7 +14612,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 59,
     "statsSATK": 95,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "silvally",
@@ -13857,7 +14629,8 @@ const allPokemon = [
     "statsDEF": 95,
     "statsINIT": 95,
     "statsSATK": 95,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "minior-red-meteor",
@@ -13874,7 +14647,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 60,
     "statsSATK": 60,
-    "statsSDEF": 100
+    "statsSDEF": 100,
+    "caught": false
   },
   {
     "name": "komala",
@@ -13890,7 +14664,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 65,
     "statsSATK": 75,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "turtonator",
@@ -13907,7 +14682,8 @@ const allPokemon = [
     "statsDEF": 135,
     "statsINIT": 36,
     "statsSATK": 91,
-    "statsSDEF": 85
+    "statsSDEF": 85,
+    "caught": false
   },
   {
     "name": "togedemaru",
@@ -13926,7 +14702,8 @@ const allPokemon = [
     "statsDEF": 63,
     "statsINIT": 96,
     "statsSATK": 40,
-    "statsSDEF": 73
+    "statsSDEF": 73,
+    "caught": false
   },
   {
     "name": "mimikyu-disguised",
@@ -13943,7 +14720,8 @@ const allPokemon = [
     "statsDEF": 80,
     "statsINIT": 96,
     "statsSATK": 50,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "bruxish",
@@ -13962,7 +14740,8 @@ const allPokemon = [
     "statsDEF": 70,
     "statsINIT": 92,
     "statsSATK": 70,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "drampa",
@@ -13981,7 +14760,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 36,
     "statsSATK": 135,
-    "statsSDEF": 91
+    "statsSDEF": 91,
+    "caught": false
   },
   {
     "name": "dhelmise",
@@ -13998,7 +14778,8 @@ const allPokemon = [
     "statsDEF": 100,
     "statsINIT": 40,
     "statsSATK": 86,
-    "statsSDEF": 90
+    "statsSDEF": 90,
+    "caught": false
   },
   {
     "name": "jangmo-o",
@@ -14016,7 +14797,8 @@ const allPokemon = [
     "statsDEF": 65,
     "statsINIT": 45,
     "statsSATK": 45,
-    "statsSDEF": 45
+    "statsSDEF": 45,
+    "caught": false
   },
   {
     "name": "hakamo-o",
@@ -14035,7 +14817,8 @@ const allPokemon = [
     "statsDEF": 90,
     "statsINIT": 65,
     "statsSATK": 65,
-    "statsSDEF": 70
+    "statsSDEF": 70,
+    "caught": false
   },
   {
     "name": "kommo-o",
@@ -14054,7 +14837,8 @@ const allPokemon = [
     "statsDEF": 125,
     "statsINIT": 85,
     "statsSATK": 100,
-    "statsSDEF": 105
+    "statsSDEF": 105,
+    "caught": false
   },
   {
     "name": "tapu-koko",
@@ -14072,7 +14856,8 @@ const allPokemon = [
     "statsDEF": 85,
     "statsINIT": 130,
     "statsSATK": 95,
-    "statsSDEF": 75
+    "statsSDEF": 75,
+    "caught": false
   },
   {
     "name": "tapu-lele",
@@ -14090,7 +14875,8 @@ const allPokemon = [
     "statsDEF": 75,
     "statsINIT": 95,
     "statsSATK": 130,
-    "statsSDEF": 115
+    "statsSDEF": 115,
+    "caught": false
   },
   {
     "name": "tapu-bulu",
@@ -14108,7 +14894,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 75,
     "statsSATK": 85,
-    "statsSDEF": 95
+    "statsSDEF": 95,
+    "caught": false
   },
   {
     "name": "tapu-fini",
@@ -14126,7 +14913,8 @@ const allPokemon = [
     "statsDEF": 115,
     "statsINIT": 85,
     "statsSATK": 95,
-    "statsSDEF": 130
+    "statsSDEF": 130,
+    "caught": false
   },
   {
     "name": "cosmog",
@@ -14142,7 +14930,8 @@ const allPokemon = [
     "statsDEF": 31,
     "statsINIT": 37,
     "statsSATK": 29,
-    "statsSDEF": 31
+    "statsSDEF": 31,
+    "caught": false
   },
   {
     "name": "cosmoem",
@@ -14158,7 +14947,8 @@ const allPokemon = [
     "statsDEF": 131,
     "statsINIT": 37,
     "statsSATK": 29,
-    "statsSDEF": 131
+    "statsSDEF": 131,
+    "caught": false
   },
   {
     "name": "solgaleo",
@@ -14175,7 +14965,8 @@ const allPokemon = [
     "statsDEF": 107,
     "statsINIT": 97,
     "statsSATK": 113,
-    "statsSDEF": 89
+    "statsSDEF": 89,
+    "caught": false
   },
   {
     "name": "lunala",
@@ -14192,7 +14983,8 @@ const allPokemon = [
     "statsDEF": 89,
     "statsINIT": 97,
     "statsSATK": 137,
-    "statsSDEF": 107
+    "statsSDEF": 107,
+    "caught": false
   },
   {
     "name": "nihilego",
@@ -14209,6 +15001,7 @@ const allPokemon = [
     "statsDEF": 47,
     "statsINIT": 103,
     "statsSATK": 127,
-    "statsSDEF": 131
+    "statsSDEF": 131,
+    "caught": false
   }
 ]

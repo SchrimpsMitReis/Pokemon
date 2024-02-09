@@ -32,6 +32,8 @@ class Pokemon{
         this.statsINIT = statsINIT;
         this.statsSATK = statsSATK;
         this.statsSDEF = statsSDEF;
+        this.caught = false;
+
     }
 }
 
@@ -83,9 +85,8 @@ async function downloadPokemon(i){
     myPokeData.push(newPokemon)
 }
 function saveAllData(){
-    const intro = "const allPokemon = ["
-    const outro = "]"
-    const data = intro + JSON.stringify(myPokeData, null, 2) + outro;
+    const intro = "const allPokemon = "
+    const data = intro + JSON.stringify(myPokeData, null, 2);
     fs.writeFile('PokemonDB.js', data, (err) => {
         if (err) {
           console.error('Fehler beim Erstellen der Datei:', err);

@@ -106,8 +106,8 @@ a, p{
 }
 .dexCard {
     transition: cardScale-1 0.5s;
-    width: 30em;
-    height: 40em;
+    width: 24em;
+    height: 32em;
     background-color: #d23737;
     display: flex;
     border-radius: 1em;

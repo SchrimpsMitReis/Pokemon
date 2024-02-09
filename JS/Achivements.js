@@ -31,7 +31,7 @@ function addOrden(x){
         `
         setTimeout(() => {
             overlay.classList.add("d-none")
-        }, 3000);
+        }, 6000);
     }
     saveBadges()
 }

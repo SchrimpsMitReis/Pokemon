@@ -1,6 +1,6 @@
 .headlineBadge{
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    animation: opacity 1s ease-in-out;
     background-image: url("../IMG/ikoBgBlue.png");
     background-size: cover;
     border: 0.5em ridge #FECA1B;

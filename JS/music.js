@@ -48,3 +48,7 @@ closeButton.volume = 0.1;
 let music = new Audio()
 music.src = "../audio/music.mp3";
 music.volume = 0.03;
+
+let lavandia = new Audio()
+lavandia.src = "../audio/Lavandia.mp3"
+lavandia.volume = 0.2

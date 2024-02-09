@@ -34,6 +34,9 @@ function introSequenz(){
     }, {once:true});
 }
 function renderDex(){
+    if (rangeCounter === 1){
+        addOrden(4)
+    }
     let rangeMin = 100 * rangeCounter;
     let rangeMax = 100 * (rangeCounter + 1);
     if(rangeMax >= allPokemon.length){
@@ -50,7 +53,7 @@ function renderDex(){
         content.innerHTML += /*html*/`
         <div id="Card${i}" class="dexCard" onclick="showBackside(${i})">
             <div>
-                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg">
                   <circle class="blueCircle" cx="40" cy="40" r="20"/>
                   <circle  cx="40" cy="40" r="20" fill="none" stroke="black" stroke-width="14" />
                   <circle  cx="40" cy="40" r="20" fill="none" stroke="white" stroke-width="10"/>
@@ -77,7 +80,6 @@ async function showBackside(index) {
         openCardBG.innerHTML = "";
         openCardBG.classList.remove('d-none');
         let myPokemon = allPokemon[index]
-        console.log(myPokemon);
         let frontHome = myPokemon['img1'];
         let frontClassic = myPokemon['img2'];
         let statsHP = myPokemon['statsHP'];
@@ -136,14 +138,14 @@ async function showBackside(index) {
                          </div>
                         <div class="statValues">
                             <div >
-                                <div class="fontHP"><p>Health&nbsp;-&nbsp;Points<br>HP:</p><p>${statsHP}</p></div>
-                                <div class="fontATK"><p>Attack<br>ATK:</p><p>${statsATK}</p></div>
-                                <div class="fontDEF"><p>Defense<br>DEF:</p><p>${statsDEF}</p></div>
+                                <div class="font HP"><p>Health&nbsp;-&nbsp;Points<br>HP:</p><p>${statsHP}</p></div>
+                                <div class="font ATK"><p>Attack<br>ATK:</p><p>${statsATK}</p></div>
+                                <div class="font DEF"><p>Defense<br>DEF:</p><p>${statsDEF}</p></div>
                             </div>
                             <div>
-                                <div class="fontSATK"><p>Spec&nbsp;Attack<br>S-ATK:</p><p>${statsSATK}</p></div>
-                                <div class="fontSDEF"><p>Spec&nbsp;Defense<br>S-DEF:</p><p>${statsSDEF}</p></div>
-                                <div class="fontINIT"><p>Initiative<br>INIT:</p><p>${statsINIT}</p></div>
+                                <div class="font SATK"><p>Spec&nbsp;Attack<br>S-ATK:</p><p>${statsSATK}</p></div>
+                                <div class="font SDEF"><p>Spec&nbsp;Defense<br>S-DEF:</p><p>${statsSDEF}</p></div>
+                                <div class="font INIT"><p>Initiative<br>INIT:</p><p>${statsINIT}</p></div>
                             </div>
                         </div>                      
                     </div>
@@ -280,7 +282,7 @@ function renderMissingNo() {
     let pImg = "./IMG/MissingNo.png"
     
     content.innerHTML += /*html*/`
-    <div id="CardMissigno" class="dexCard" onclick="showBackside('MissingNo')">
+    <div id="CardMissigno" class="dexCard" onclick="showBackside('MissingNo'), lavandia.play()">
         <div>
             <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
               <circle class="blueCircle" cx="40" cy="40" r="20"/>
@@ -299,6 +301,7 @@ function renderMissingNo() {
     `
 }
 async function missingNoMania() {
+    music.pause()
     let spawnNo = (x)=>{
         const ErrorNo = [
             "Kritischer Fehler",
@@ -329,19 +332,19 @@ async function missingNoMania() {
         image.style.width = (5 * Math.random()) +'%'
         image.style.zIndex = 6;
         document.body.appendChild(image);
-
         console.log(ErrorNo[x%ErrorNo.length])
         loadingScreen.innerHTML += ErrorNo[x%ErrorNo.length]
-        x++
         return "";
     }
     let x = 0
     setInterval(()=>{
         spawnNo(x);
+        console.log(x);
         if (x == 1000){
+            lavandia.pause()
             addOrden(7)
         }
         x++
     }
-    ,0.01)
+    ,2)
 }

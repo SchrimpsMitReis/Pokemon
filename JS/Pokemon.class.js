@@ -13,5 +13,6 @@ class Pokemon{
         this.statsINIT = statsINIT;
         this.statsSATK = statsSATK;
         this.statsSDEF = statsSDEF;
+        this.caught = false;
     }
 }

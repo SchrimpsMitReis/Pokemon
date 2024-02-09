@@ -1,6 +1,6 @@
 async function searchPokemon() {
   setTimeout(() => {
-    addOrden(6)
+    addOrden(3)
   }, 1000);
   let pokemonFound = false;
   let input = searchInput.value;
@@ -8,7 +8,6 @@ async function searchPokemon() {
   content.innerHTML = "";
   if (searchResult.length > 0){
     pokemonFound = true;
-
     for (let i = 0; i < searchResult.length; i++) {
       const pokemon = searchResult[i];
       let pName = pokemon['name'];
