@@ -1,0 +1,27 @@
+.nidobtn{
+    position:fixed;
+    bottom: 9em;
+    left: 20%;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 60%;
+    height: 1em;
+    background-color: #609CDA;
+    border:3px ridge #F7BE10;
+    border-radius: 20px;
+    z-index: 4;
+}
+.nidobtn::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../IMG/DexImg/Nidoran♂_home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #609CDA; */
+    /* border:2px ridge #F7BE10; */
+    border-radius: 40px;
+    height: 6em;
+    width: 6em;
+    transform: translateY(-1em);
+}

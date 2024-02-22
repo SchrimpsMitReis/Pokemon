@@ -35,8 +35,6 @@ body {
     background-color: #2E66B1;
     border-radius: 20px;
     padding-right: 10px;
-
-
 }
 ::-webkit-scrollbar{
     width: 40px;
@@ -91,6 +89,7 @@ a, p{
 }
 .dexCard {
     transition: cardScale-1 0.5s;
+<<<<<<< Updated upstream
     width: 15em;
     height: 20em;
     background-color: #d23737;
@@ -108,6 +107,10 @@ a, p{
     transition: cardScale-1 0.5s;
     width: 30em;
     height: 40em;
+=======
+    width: 24em;
+    height: 32em;
+>>>>>>> Stashed changes
     background-color: #d23737;
     display: flex;
     border-radius: 1em;
@@ -117,6 +120,7 @@ a, p{
     flex-direction: column;
     margin: 1em;
     padding-bottom: 1em;
+    
     
 }
 
@@ -132,8 +136,12 @@ a, p{
     animation: cardScale 0.5s;
     scale: 110%;
 }
+svg {
+    position: static;
+}
 .pokeImgContainer {
     width: 80%;
+    height: 80%;
     background-image: url("../IMG/textBg.png");
     background-size: cover;
     overflow: hidden;
@@ -141,14 +149,14 @@ a, p{
     justify-content: center;
     border: 1em solid silver;
     border-radius: 1em;
-    margin: 1em;
+    /* margin: 1em; */
 }
 
-.pokeImgContainer img {
-    transform: translateY(-20px);
+/* .dexCardImage {
+    transform: translateY(0px);
 
 }
-
+ */
 
 .pokeImgContainer img:hover {
     animation: imageScale 6s;

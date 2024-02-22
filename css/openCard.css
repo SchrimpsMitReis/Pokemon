@@ -1,4 +1,4 @@
-.openCardBG{
+.openCardBG {
     position: fixed;
     left: 0;
     top: 0;
@@ -11,7 +11,8 @@
     z-index: 2;
 
 }
-.openCard{
+
+.openCard {
     max-width: 90%;
     /* height: 90%; */
     background-image: url("../IMG/ikoBg.png");
@@ -27,9 +28,10 @@
     gap: 1em;
     scroll-behavior: none;
 
-    
+
 }
-.closeButton{
+
+.closeButton {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -45,7 +47,8 @@
     background-image: url('../IMG/Pokeball.png');
     background-size: cover;
 }
-.openCardLeft{
+
+.openCardLeft {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -53,10 +56,11 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.632);
     padding: 1em;
-    border-color: 13px double #2E66B1 ;
+    border-color: 13px double #2E66B1;
     border-radius: 2em;
 }
-.moveTable{
+
+.moveTable {
     background-image: url("../IMG/ikoBgBlue.png");
     border-radius: 20px;
     border: 3px ridge #FECA1B;
@@ -65,11 +69,12 @@
     width: 100%;
     height: 50%;
 }
-.moveTable h2{
+
+.moveTable h2 {
     color: #FECA1B;
 }
 
-.openCardRight{
+.openCardRight {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -77,58 +82,68 @@
     background-color: rgba(255, 255, 255, 0.632);
     align-items: center;
     padding: 1em;
-    border-color: 13px double #2E66B1 ;
+    border-color: 13px double #2E66B1;
     border-radius: 2em;
 }
-.chartContainer{
+
+.chartContainer {
     display: flex;
     justify-content: center;
+    width: 100%;
+    align-self: center;
 }
-.closeButton:hover{
+.closeButton:hover {
     animation: ballRotate 2s infinite;
     cursor: url("../IMG/CursorPointer50.gif"), 2s;
     border: 5px solid #2E66B1;
 }
-.openCardBG h2{
+.openCardBG h2 {
     font-size: 20px;
 }
-.openCardRight h2{
+
+.openCardRight h2 {
     margin-bottom: 1em;
 }
-.images{
-    display:flex;
+
+.images {
+    display: flex;
     border: 0.5em double gray;
     margin-bottom: 1em;
     background-image: url("../IMG/textBg.png");
 }
-.images img{
+
+.images img {
     width: 50%;
 }
-.romanImage{
-    display:flex;
+
+.romanImage {
+    display: flex;
     justify-content: center;
 
     border: 0.5em double gray;
     margin-bottom: 1em;
     background-image: url("../IMG/textBg.png");
 }
-.nameId{
+
+.nameId {
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 2em;
-    background-color:#2E66B1;
+    background-color: #2E66B1;
     border-radius: 20px;
     border: 3px ridge #FECA1B;
     /* padding-left: 10px; */
 
 }
-.nameId p{
+
+.nameId p {
     color: white
 }
-.types{
+
+.types {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -136,7 +151,8 @@
     justify-content: space-around;
 
 }
-.type{
+
+.type {
     width: 13em;
     height: 4em;
     display: flex;
@@ -145,36 +161,83 @@
     border-radius: 0.5em;
     font-family: 'Pokemon2';
 }
-.statValues{
+
+.statValues {
     display: flex;
+<<<<<<< Updated upstream
     justify-content: space-around;
     /* flex-direction: column; */
+=======
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* width: 80%; */
+>>>>>>> Stashed changes
 }
-.allStats{
+.flavorText{
+    background-image: url("../IMG/ikoBg.png");
     width: 100%;
+    background-size: cover;
+    border:8px #2E66B1 dotted
+
 }
-.openCardRight h2{
+.flavorText p{
+    font-size: 10pt !important;
+
+}
+.allStats {
+    width: 100%;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.openCardRight h2 {
     margin-bottom: 1em;
 }
-.overflowHidden{
+
+.overflowHidden {
     overflow-y: hidden !important;
 
 }
-#myChart{
+
+#myChart {
     width: 80% !important;
     height: 80% !important;
     object-fit: cover;
 }
+<<<<<<< Updated upstream
 .fontHP{
     background-color: #2E66B1;
     filter: drop-shadow(0px 0px 2px );
+=======
+
+.font {
+    filter: drop-shadow(0px 0px 2px);
+>>>>>>> Stashed changes
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 0;
     border-radius: 10px;
+<<<<<<< Updated upstream
     width: 100%
 }
 .fontATK{
+=======
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url(); */
+}
+
+.HP {
+    color: #fbdf81;
+    background-color: #2E66B1;
+}
+
+.ATK {
+    color: #fbdf81;
+>>>>>>> Stashed changes
     background-color: #E42829;
     filter: drop-shadow(0px 0px 2px );
     padding-left: 5%;
@@ -183,7 +246,13 @@
     border-radius: 10px;
     width: 100%
 }
+<<<<<<< Updated upstream
 .fontDEF{
+=======
+
+.DEF {
+    color: #2E66B1;
+>>>>>>> Stashed changes
     background-color: #FECA1B;
     filter: drop-shadow(0px 0px 2px );
     padding-left: 5%;
@@ -192,7 +261,13 @@
     border-radius: 10px;
     width: 100%
 }
+<<<<<<< Updated upstream
 .fontSATK{
+=======
+
+.SATK {
+    color: #FECA1B;
+>>>>>>> Stashed changes
     background-color: #6990c4;
     filter: drop-shadow(0px 0px 2px );
     padding-left: 5%;
@@ -201,7 +276,13 @@
     border-radius: 10px;
     width: 100%
 }
+<<<<<<< Updated upstream
 .fontSDEF{
+=======
+
+.SDEF {
+    color: #FECA1B;
+>>>>>>> Stashed changes
     background-color: #e05a5a;
     filter: drop-shadow(0px 0px 2px );
     padding-left: 5%;
@@ -210,7 +291,13 @@
     border-radius: 10px;
     width: 100%
 }
+<<<<<<< Updated upstream
 .fontINIT{
+=======
+
+.INIT {
+    color: #2E66B1;
+>>>>>>> Stashed changes
     background-color: #fbdf81;
     filter: drop-shadow(0px 0px 2px );
     padding-left: 5%;
@@ -219,15 +306,17 @@
     border-radius: 10px;
     width: 100%
 }
-.ability{
+
+.ability {
     background-color: #fbdf81;
     padding: 2px;
-    border:3px ridge #FECA1B;
+    border: 3px ridge #FECA1B;
     border-radius: 10px;
     color: #E42829;
-    filter: drop-shadow(0 0 5px  #2E66B1);
+    filter: drop-shadow(0 0 5px #2E66B1);
 }
-.AllOrden{
+
+.AllOrden {
     /* position: fixed; */
     display: flex;
     flex-direction: row;
@@ -240,50 +329,60 @@
     justify-content: space-between;
     align-self: flex-start;
 }
-.orden{
+
+.orden {
     margin-left: -0.5em;
     background-size: cover;
     height: 4em;
 
 }
-.orden:hover{
-    animation: ballRotate 2s infinite ;
+
+.orden:hover {
+    animation: ballRotate 2s infinite;
 }
-.fels{
+
+.fels {
     background-image: url("../IMG/Felsorden.png");
     width: 4.4em;
 
 }
-.quell{
+
+.quell {
     background-image: url("../IMG/Quellorden.png");
     width: 2.8em;
 
 }
-.donner{
+
+.donner {
     background-image: url("../IMG/Donnerorden.png");
     width: 4em;
 }
-.farb{
+
+.farb {
     background-image: url("../IMG/Farborden.png");
     width: 4.2em;
 
 }
-.seelen{
+
+.seelen {
     background-image: url("../IMG/Seelenorden.png");
     width: 3.6em;
 
 }
-.sumpf{
+
+.sumpf {
     background-image: url("../IMG/Sumpforden.png");
     width: 4.4em;
 
 }
-.vulkan{
+
+.vulkan {
     background-image: url("../IMG/Vulkanorden.png");
     width: 4.1em;
 
 }
-.erd{
+
+.erd {
     background-image: url("../IMG/Erdorden.png");
     width: 2em;
 

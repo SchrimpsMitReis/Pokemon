@@ -21,8 +21,8 @@ document.body.addEventListener('mousemove', function (event) {
     let mouseX = event.clientX; 
     let mouseY = event.clientY; 
     if (mouseX) {
-        let difX = (mouseX - posX) / 50;
-        let difY = (mouseY - posY) / 50;
+        let difX = (mouseX - posX) / 200;
+        let difY = (mouseY - posY) / 200;
         setInterval(movePokemon(difX, difY))
 
 
@@ -31,7 +31,14 @@ document.body.addEventListener('mousemove', function (event) {
 });
 
 icognito.addEventListener('click', () => {
+<<<<<<< Updated upstream
     addOrden(2);
+=======
+    setTimeout(() => {
+        addOrden(2)
+    }, 1000);
+    toggleBtns()
+>>>>>>> Stashed changes
     let age = ()=>{
         let date = new Date()
         let year = date.getFullYear()
